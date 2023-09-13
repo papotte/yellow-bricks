@@ -2,7 +2,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`bunx`](https://bun.sh/guides/ecosystem/nextjs).
 
-**Implemented:**
+### Integrated
 
 -   ✅ ESLint + Prettier
 -   ✅ Tailwind CSS
