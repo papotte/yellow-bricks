@@ -4,16 +4,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`bunx`](http
 
 **Implemented:**
 
-✅ ESLint + Prettier
-✅ Tailwind CSS
-✅ Next Auth
-✅ Next SEO + Sitemap
-✅ tRPC
-✅ Prisma
-✅ Zod
-✅ Husky hooks
-✅ commitlint + commitizen + lint-staged
-✅ SemanticRelease
+-   ✅ ESLint + Prettier
+-   ✅ Tailwind CSS
+-   ✅ Next Auth
+-   ✅ Next SEO + Sitemap
+-   ✅ tRPC
+-   ✅ Prisma
+-   ✅ Zod
+-   ✅ Husky hooks
+-   ✅ commitlint + commitizen + lint-staged
+-   ✅ SemanticRelease
 
 ## Getting Started
 
