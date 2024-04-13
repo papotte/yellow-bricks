@@ -187,7 +187,8 @@
 			"title": "Sammeln Sie alle Ihre Dokumente"
 		},
 		"step8": {
-			"checkbox-goal-1": "Bestätigung von Ihrem Therapeuten erhalten haben, dass er Ihre Dokumente erhalten hat.",
+			"checkbox-goal-1": "Senden Sie die Dokumente mit Einschreiben.",
+			"checkbox-goal-2": "Bestätigung von Ihrem Therapeuten erhalten haben, dass er Ihre Dokumente erhalten hat.",
 			"description": "Senden Sie alle Dokumente, die Sie im vorherigen Schritt gesammelt haben, an Ihren neuen Therapeuten. Dieser wird Ihnen mitgeteilt haben, ob er die Dokumente lieber per E-Mail oder per Post erhalten möchte. Ihr Therapeut wird von dort aus weitermachen, weitere notwendige Dokumente hinzufügen und alles an Ihre Krankenkasse senden.",
 			"goals": "Ziele",
 			"how": "Wie mache ich das?",

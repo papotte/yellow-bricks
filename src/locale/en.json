@@ -208,7 +208,8 @@
 			"checkbox-doc-6": "Antrag auf Probatorik (filled in by yourself)"
 		},
 		"step8": {
-			"checkbox-goal-1": "Get confirmation from your therapist that they received your documents.",
+			"checkbox-goal-1": "Send envelope through DHL or Deutsche Post with tracking number (\"Einschreiben\").",
+			"checkbox-goal-2": "Get confirmation from your therapist that they received your documents.",
 			"description": "Send all the documents you’ve gathered in the previous step to your new therapist. They will have let you know if they prefer to receive the documents via email or via post. Your therapist will take it from there, adding any other necessary documents and sending everything to your health insurance provider.",
 			"goals": "Goals",
 			"how": "How to do this?",

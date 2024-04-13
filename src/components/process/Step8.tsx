@@ -2,7 +2,7 @@ import GoalForm from "@/components/process/form";
 import { useTranslations } from "next-intl";
 import React from "react";
 
-const checkboxes = [{ id: "goal-1" }];
+const checkboxes = [{ id: "goal-1" }, { id: "goal-2" }];
 
 export default function Step8() {
 	const translationPath = "process.step8";
@@ -14,7 +14,7 @@ export default function Step8() {
 			<ul className="list-disc list-inside">
 				<li>{t("how1")}</li>
 			</ul>
-			<h3>{t("goals")}</h3> <GoalForm translationPath={translationPath} checkboxes={checkboxes} />
+			<GoalForm translationPath={translationPath} checkboxes={checkboxes} />
 		</div>
 	);
 }
