@@ -102,8 +102,37 @@
 		}
 	},
 	"process": {
-		"email": {
-			"title": "Email"
+		"step2": {
+			"title": "Contact public therapists",
+			"time": "2 weeks avg. waiting time"
+		},
+		"step3": {
+			"title": "Visit a GP or psychiatrist",
+			"time": "2 weeks avg. waiting time"
+		},
+		"step4": {
+			"title": "Contact TSS",
+			"time": "10 minutes"
+		},
+		"step5": {
+			"title": "Contact private therapists",
+			"time": "2 weeks avg. waiting time"
+		},
+		"step6": {
+			"title": "Fill in the form",
+			"time": "ca. 30 minutes"
+		},
+		"step7": {
+			"title": "Gather all your documents",
+			"time": "ca. 50 minutes"
+		},
+		"step8": {
+			"title": "Send documents",
+			"time": "ca. 20 minutes"
+		},
+		"step9": {
+			"title": "Wait for approval",
+			"time": "4 weeks avg. waiting time"
 		},
 		"first-consultation": {
 			"checkbox-goal-1": "Get PTV11 - confirms the necessity (indication) of psychotherapy in a guideline procedure",
@@ -121,7 +150,8 @@
 			"tips-keywords": "Important keywords to look for: GKV-Praxis, Vertragspsychotherapeut:in",
 			"tips-keywords-help": "If you are looking for a therapist who takes public insurance, you should look for a practice that is a GKV-Praxis and the therapist is a Vertragspsychotherapeut:in. This means that the therapist has a contract with the public insurance companies and can treat you as a public insurance client.",
 			"tips-seats": "Even if a therapist doesn't have seats available, they can confirm the necessity of psychotherapy",
-			"title": "First Consultation"
+			"title": "Get first consultation",
+			"time": "3 weeks avg. waiting time"
 		},
 		"next": "Next",
 		"overview": {
