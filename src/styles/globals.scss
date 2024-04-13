@@ -50,15 +50,7 @@ body {
 	}
 
 	svg {
-		@apply inline mx-1;
-
-		&:first-child {
-			@apply ml-0;
-		}
-
-		&:last-child {
-			@apply mr-0;
-		}
+		@apply inline;
 	}
 }
 
@@ -93,9 +85,5 @@ body {
 
 	label {
 		@apply ms-2 text-sm font-medium text-gray-900 dark:text-gray-300;
-	}
-
-	.tooltip {
-		@apply absolute z-10 inline-block px-3 py-2 text-sm w-1/2 font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 dark:bg-gray-700;
 	}
 }

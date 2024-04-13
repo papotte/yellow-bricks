@@ -1,5 +1,5 @@
 import GoalForm from "@/components/process/form";
-import { QuestionMarkCircleIcon } from "@heroicons/react/16/solid";
+import HelpIcon from "@/components/ui/help-icon";
 import { useTranslations } from "next-intl";
 import React from "react";
 
@@ -34,21 +34,12 @@ export default function Consultation() {
 			<ul className="list-disc list-inside">
 				<li>
 					{t("tips-keywords")}
-					<span data-tooltip-target="tooltip-keywords">
-						<QuestionMarkCircleIcon width={12} height={12} />
-					</span>
+					<HelpIcon tooltip={t("tips-keywords-help")} />
 				</li>
 
 				<li>{t("tips-seats")}</li>
 			</ul>
-			<div
-				id="tooltip-keywords"
-				role="tooltip"
-				className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
-			>
-				{t("tips-keywords-help")}
-				<div className="tooltip-arrow" data-popper-arrow></div>
-			</div>
+
 			<GoalForm translationPath={translationPath} checkboxes={checkboxes} />
 		</div>
 	);

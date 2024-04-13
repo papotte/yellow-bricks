@@ -1,4 +1,4 @@
-import { QuestionMarkCircleIcon } from "@heroicons/react/16/solid";
+import HelpIcon from "@/components/ui/help-icon";
 import { useTranslations } from "next-intl";
 import React, { useEffect, useState } from "react";
 
@@ -34,16 +34,8 @@ const GoalForm = ({ translationPath, checkboxes }: GoalProps) => {
 						<input id={checkbox.id} type="checkbox" value="" />
 						<label htmlFor={checkbox.id}>
 							{t(`checkbox-${checkbox.id}`)}
-							{checkbox.tooltip && (
-								<span data-tooltip-target={"tooltip-" + checkbox.id}>
-									<QuestionMarkCircleIcon width={12} height={12} />
-								</span>
-							)}
+							{checkbox.tooltip && <HelpIcon tooltip={t(checkbox.id + "-help")} />}
 						</label>
-						<div id={"tooltip-" + checkbox.id} role="tooltip" className="tooltip invisible">
-							{t(checkbox.id + "-help")}
-							<div className="tooltip-arrow" data-popper-arrow></div>
-						</div>
 					</div>
 				))}
 			</form>
