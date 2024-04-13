@@ -127,7 +127,7 @@
 			"tips": "Tips",
 			"tip1": "Most doctors use their own templates, but you can also use these templates.",
 			"goals": "Goals",
-			"goal1": "Have filled out Konsiliarbericht and Dringlichkeitsbescheinigung."
+			"checkbox-goal-1": "Have filled out Konsiliarbericht and Dringlichkeitsbescheinigung."
 		},
 		"step4": {
 			"title": "Contact TSS",
@@ -139,7 +139,7 @@
 			"tips": "Tips",
 			"tip1": "Make sure that the date of first contact is after the date you received the PTV11 and urgency code.",
 			"goals": "Goals",
-			"goal1": "Filled in Notice of Unsuccessful Appointment Mediation and checked “Die TSS konnte keine probatorischen Sitzungen/Sprechstunde zeitnah vermitteln”."
+			"checkbox-goal-1": "Filled in Notice of Unsuccessful Appointment Mediation and checked “Die TSS konnte keine probatorischen Sitzungen/Sprechstunde zeitnah vermitteln”."
 		},
 		"step5": {
 			"title": "Contact private therapists",
@@ -149,9 +149,9 @@
 			"how1": "Look for therapists with a private practice who are willing to take part in the reimbursement procedure.",
 			"how2": "Contact them to find out if they have space for you.",
 			"tips": "Tips",
-			"tip1": "You can find queer-friendly therapists using https://queermed-deutschland.de/en/look-for-recommendations/ (make sure to select “Psychotherapy” and your city in the search mask)",
+			"tip1": "You can find queer-friendly therapists using <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> (make sure to select “Psychotherapy” and your city in the search mask)",
 			"goals": "Goals",
-			"goal1": "Have confirmation from a private therapist that you can start therapy with them and that they’re willing to take part in the reimbursement procedure."
+			"checkbox-goal-1": "Have confirmation from a private therapist that you can start therapy with them and that they’re willing to take part in the reimbursement procedure."
 		},
 		"step6": {
 			"title": "Fill in the form",
@@ -160,7 +160,7 @@
 			"how": "How to do this?",
 			"how1": "Fill in the Application for Probatory and sign it.",
 			"goals": "Goals",
-			"goal1": "Form filled in and signed."
+			"checkbox-goal-1": "Form filled in and signed."
 		},
 		"step7": {
 			"title": "Gather all your documents",
@@ -174,7 +174,7 @@
 			"checklist5": "Mitteilung zur erfolglosen Terminvermittlung (filled in by yourself)",
 			"checklist6": "Antrag auf Probatorik (filled in by yourself)",
 			"goals": "Goals",
-			"goal1": "All documents listed above ready for sending to your new therapist. "
+			"checkbox-goal-1": "All documents listed above ready for sending to your new therapist. "
 		},
 		"step8": {
 			"title": "Send documents",
@@ -183,7 +183,7 @@
 			"how": "How to do this?",
 			"how1": "Send documents to your new therapist for them to start the reimbursement procedure with your health insurance provider.",
 			"goals": "Goals",
-			"goal1": "Get confirmation from your therapist that they received your documents."
+			"checkbox-goal-1": "Get confirmation from your therapist that they received your documents."
 		},
 		"step9": {
 			"title": "You're done 🥳",
