@@ -75,7 +75,7 @@ body {
 }
 
 .btn-secondary {
-	@apply bg-secondary-700 hover:bg-secondary-800 focus:ring-secondary-300  dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800;
+	@apply bg-secondary-600 hover:bg-secondary-800 focus:ring-secondary-300 dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800;
 }
 
 .btn-accent {
@@ -84,4 +84,18 @@ body {
 
 .btn-neutral {
 	@apply bg-neutral-700 hover:bg-neutral-800 focus:ring-neutral-300 dark:bg-neutral-600 dark:hover:bg-neutral-700 dark:focus:ring-neutral-800;
+}
+
+.checkbox-field {
+	input {
+		@apply w-4 h-4 text-secondary-500 bg-gray-100 border-gray-300 rounded focus:ring-secondary-500 dark:focus:ring-secondary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600;
+	}
+
+	label {
+		@apply ms-2 text-sm font-medium text-gray-900 dark:text-gray-300;
+	}
+
+	.tooltip {
+		@apply absolute z-10 inline-block px-3 py-2 text-sm w-1/2 font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 dark:bg-gray-700;
+	}
 }

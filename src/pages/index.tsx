@@ -26,7 +26,7 @@ export default function Home() {
 						"linear-gradient(135deg, rgba(250,229,80,1) 20%, rgba(139,183,232,1) 60%, rgba(244,183,166,1) 80%)",
 				}}
 			></div>
-			<section className={`container flex flex-col mx-auto items-center justify-between font-inter`}>
+			<section className={`container flex flex-col mx-auto items-center justify-between font-lexend`}>
 				<div className="relative flex flex-col items-center gap-4 place-items-baseline before:absolute">
 					<Image
 						className="h-auto w-40 lg:w-60"

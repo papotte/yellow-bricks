@@ -111,8 +111,10 @@
 			"how2": "Log your calls (name, date, possibly time, and earliest possible treatment date)",
 			"tips": "Tips",
 			"tip1": "You can find queer-friendly therapists using <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> (make sure to select “Psychotherapy” and your city in the search mask)",
+			"tip2": "Not receiving a response to your emails for two weeks or the answering machine informing you that there are no capacities also counts as proof.",
+			"tip3": "You can use this template to create your protocol of rejections (”Absageprotokoll”).",
 			"goals": "Goals",
-			"goal1": "Have proof of rejections of 20 therapists in your Absageprotokoll"
+			"checkbox-goal-1": "Have proof of rejections of 20 therapists in your Absageprotokoll"
 		},
 		"step3": {
 			"title": "Visit a GP or psychiatrist",
