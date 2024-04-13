@@ -78,5 +78,46 @@
 		"overview": {
 			"title": "Overview"
 		}
-	}
+	},
+    "glossary": {
+        "title": "Glossary",
+        "item1": {
+            "title": "Reimbursement procedure - Kostenerstattungsverfahren",
+            "description": "If you have statutory health insurance and are in urgent need of psychotherapeutic treatment, but run into walls on the way to a therapy place, you have a legal claim against your health insurance company to have the costs of a private doctor covered."
+        },
+        "item2": {
+            "title": "Contract psychotherapist / doctor with health insurance license - Vertragspsychotherapeut:in / Arzt mit Kassenzulassung",
+            "description": "Those doctors in Germany who have concluded a contract with the statutory health insurance funds and thus bill their services directly to the statutory health insurance funds instead of to the patients. The majority of people insured in Germany have statutory health insurance."
+        },
+        "item3": {
+            "title": "Initial consultation / Initial psychotherapeutic consultation / Probationary session - Erstgespräch / Psychotherapeutische Erstberatung / Probatorische Sitzung",
+            "description": "A probationary session is purely a type of initial consultation with a therapist. In this session, it can be determined what exactly the subsequent treatment should look like, what type of treatment makes sense and how urgent a consultation is.
+            The consultation report, which is essential for the cost reimbursement procedure, is issued during the probationary session."
+        },
+        "item4": {
+            "title": "Form PTV11 - Formular PTV11",
+            "description": "This form is required for the cost reimbursement procedure. It is issued by the doctor during the probationary session.
+                You can find a sample of the blank document [here](notion://www.notion.so/LINKLINK).
+                An example of a completed document can be found [here](notion://www.notion.so/LINKLINK)."
+        },
+        "item5": {
+            "title": "Consultation report - Konsilliarbericht",
+            "description": "The consultation report is a written recommendation for diagnosis, treatment or therapy from one doctor to another. The consultation report is issued, for example, by a psychotherapist after the probationary session and serves as a reference for the private doctor who is subsequently commissioned to provide treatment.
+                Two copies of the consultation report are required for the cost reimbursement procedure: Four copies of the report are used as follows:
+                * one copy remains with the doctor who prepared the report for documentation purposes
+                * one copy is sent to the health insurance company. The diagnosis and contents of the report are blacked out.
+                * one copy is sent to an expert commissioned by the health insurance company. Personal data such as name is blacked out for anonymization.
+                * a copy is sent to the doctor who finally carries out the treatment."
+        },
+        "item6": {
+            "title": "Certificate of urgency / urgency code - Dringlichkeitsbescheinigung / Dringlichkeitscode",
+            "description": "The urgency code is issued by the family doctor, attending neurologist or psychiatrist. It certifies that it is unreasonable for the patient to wait any longer for a psychotherapy appointment.
+                In addition to issuing the actual urgency code, you should make sure that the attending physician also marks "promptly required" and the type of therapy (e.g. "behavioral therapy")."
+        },
+        "item7": {
+            "title": "Appointment service center - Terminservicestelle / TSS / 116117",
+            "description": "The Appointment Service Center (TSS) is part of the statutory mandate of the Associations of Statutory Health Insurance Physicians. It supports patients with statutory health insurance in obtaining psychotherapeutic care (psychotherapeutic consultations, acute treatment and trial treatment).
+                The TSS is sometimes extremely busy and long telephone waiting times of up to 2 hours can be expected. Unfortunately, the TSS staff usually only speak German, so English-speaking people should at best ask a German-speaking friend for help, or alternatively use [this link](link to our guide)."
+        }
+    }
 }
