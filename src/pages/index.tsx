@@ -1,3 +1,4 @@
+import Feature from "@/components/ui/feature";
 import { useTranslations } from "next-intl";
 import { Inter } from "next/font/google";
 import React from "react";
@@ -35,7 +36,7 @@ export default function Home() {
 					<h6>{t("metadata.author")}</h6>
 				</a>
 			</div>
-
+			<Feature />
 			<div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
 				<a
 					href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"

@@ -28,5 +28,8 @@
 			"settings": "Settings",
 			"title": "Open user menu"
 		}
+	},
+	"feature": {
+		"title": "Feature"
 	}
 }

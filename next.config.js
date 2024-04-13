@@ -2,8 +2,8 @@
 const nextConfig = {
 	reactStrictMode: true,
 	i18n: {
-		locales: ["default", "en", "de"],
-		defaultLocale: "default",
+		locales: ["en", "de"],
+		defaultLocale: "en",
 	},
 	trailingSlash: true,
 	images: {

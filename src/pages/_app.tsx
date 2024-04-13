@@ -1,5 +1,5 @@
 import "@/styles/globals.scss";
-import Navbar from "@/components/navbar/navbar";
+import Layout from "@/components/ui/layout";
 
 import { ConfigProvider, theme } from "antd";
 import type { AppType } from "next/app";
@@ -27,8 +27,9 @@ const MyApp: AppType<AppProps> = ({ Component, pageProps: { session, messages, .
 				}}
 			>
 				<SessionProvider session={session}>
-					<Navbar />
-					<Component {...pageProps} />
+					<Layout>
+						<Component {...pageProps} />
+					</Layout>
 				</SessionProvider>
 			</ConfigProvider>
 		</NextIntlClientProvider>
