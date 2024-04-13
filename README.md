@@ -1,19 +1,10 @@
-# Next.js Starter + Bun runtime
+# The Road to Therapy by Yellow Bricks
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`bunx`](https://bun.sh/guides/ecosystem/nextjs).
+This is a [Next.js](https://nextjs.org/) project based on [Diginext Starter](https://github.com/digitopvn/nextjs-bun-starter)
 
-### Integrated
+This project was born at the [Unicorns in Tech Hackathon 2024](https://www.unicornsintech.com/uithack24/) and is a platform to help people find the right therapist for them.
 
--   ✅ ESLint + Prettier
--   ✅ Tailwind CSS
--   ✅ Next Auth
--   ✅ Next SEO + Sitemap
--   ✅ tRPC
--   ✅ Prisma
--   ✅ Zod
--   ✅ Husky hooks
--   ✅ commitlint + commitizen + lint-staged
--   ✅ SemanticRelease
+# Development
 
 ## Getting Started
 
@@ -59,6 +50,19 @@ Learn more:
 -   Website: https://diginext.site
 -   Github: https://github.com/digitopvn/diginext
 -   NPM: https://www.npmjs.com/package/@topgroup/diginext
+
+### Integrated tools
+
+-   ✅ ESLint + Prettier
+-   ✅ Tailwind CSS
+-   ✅ Next Auth
+-   ✅ Next SEO + Sitemap
+-   ✅ tRPC
+-   ✅ Prisma
+-   ✅ Zod
+-   ✅ Husky hooks
+-   ✅ commitlint + commitizen + lint-staged
+-   ✅ SemanticRelease
 
 ## Credits
 

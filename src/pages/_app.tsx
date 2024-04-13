@@ -1,7 +1,7 @@
 import "@/styles/globals.scss";
 
 import { ConfigProvider, theme } from "antd";
-import type { AppProps, AppType } from "next/app";
+import type { AppType } from "next/app";
 import type { Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
 
@@ -22,8 +22,3 @@ const MyApp: AppType<{ session: Session | null }> = ({ Component, pageProps: { s
 };
 
 export default api.withTRPC(MyApp);
-
-(async () => {
-	const { configProduction } = await import("@/config/configProduction");
-	configProduction.consoleHandle();
-})();
