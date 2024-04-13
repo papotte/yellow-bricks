@@ -69,7 +69,7 @@ export default function Navbar() {
 										width={32}
 										height={32}
 										src="/logo.png"
-										alt="Your Company"
+										alt="Road to therapy"
 									/>
 								</div>
 								<div className="hidden sm:ml-6 sm:block">
