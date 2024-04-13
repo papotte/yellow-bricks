@@ -3,7 +3,24 @@
 		"loading": "Failed to load"
 	},
 	"feature": {
-		"title": "Feature"
+		"subtitle": "Take control of your therapy journey!",
+		"description": "Therapy reimbursement helper for LGBT+ people in Germany",
+		"visualize": {
+			"title": "Visualization",
+			"description": "Get a visual overview of your path to therapy."
+		},
+		"track": {
+			"title": "Track your progress",
+			"description": "Tracker and checklist to help you stay accountable through each step."
+		},
+		"resources": {
+			"title": "Resources",
+			"description": "Find resources and information to help you navigate the German healthcare system, such as our Glossary to boost your confidence with difficult terms."
+		},
+		"connect": {
+			"title": "LGBTQIA+ First!",
+			"description": "Queer individuals in Germany are 2.6 times more likely to have mental health challenges. We want to help connect you with LGBTQIA+ experienced therapists."
+		}
 	},
 	"metadata": {
 		"author": "By YellowBricks",
