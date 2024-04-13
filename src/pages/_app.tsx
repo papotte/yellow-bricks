@@ -12,6 +12,11 @@ import { useRouter } from "next/router";
 import React from "react";
 import "flowbite";
 
+import { Inter, Spicy_Rice } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const spicyRice = Spicy_Rice({ weight: "400", subsets: ["latin"], variable: "--font-spicy-rice" });
+
 type AppProps = {
 	session: Session | null;
 	messages: any;
@@ -28,9 +33,11 @@ const MyApp: AppType<AppProps> = ({ Component, pageProps: { session, messages, .
 				}}
 			>
 				<SessionProvider session={session}>
-					<Layout>
-						<Component {...pageProps} />
-					</Layout>
+					<main className={`${inter.variable} ${spicyRice.variable}`}>
+						<Layout>
+							<Component {...pageProps} />
+						</Layout>
+					</main>
 				</SessionProvider>
 			</ConfigProvider>
 		</NextIntlClientProvider>

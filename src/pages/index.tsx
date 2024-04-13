@@ -1,10 +1,8 @@
 import Stepper from "@/components/process/stepper";
 import Feature from "@/components/ui/feature";
 import { useTranslations } from "next-intl";
-import { Inter } from "next/font/google";
 import React from "react";
-
-const inter = Inter({ subsets: ["latin"] });
+import Image from "next/image";
 
 export async function getStaticProps(context: any) {
 	return {
@@ -20,25 +18,41 @@ export async function getStaticProps(context: any) {
 export default function Home() {
 	const t = useTranslations();
 	return (
-		<main className={`container flex flex-col mx-auto items-center justify-between ${inter.className}`}>
-			<div className="relative flex gap-4 place-items-baseline before:absolute">
-				<h1
-					className="text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-primary-900 to-70% to-accent-900 dark:from-primary-200
-                dark:to-accent-500 lg:text-6xl"
-				>
-					{t("metadata.title")}
-				</h1>
-				<a
-					className="pointer-events-none flex place-items-center p-8 lg:pointer-events-auto lg:p-0 text-accent-500"
-					href="https://yellow-bricks.dev"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<h6>{t("metadata.author")}</h6>
-				</a>
-			</div>
-			<Feature />
-			<Stepper />
-		</main>
+		<>
+			<div
+				className="background fixed inset-0 -z-50 opacity-30"
+				style={{
+					background:
+						"linear-gradient(135deg, rgba(250,229,80,1) 20%, rgba(139,183,232,1) 60%, rgba(244,183,166,1) 80%)",
+				}}
+			></div>
+			<section className={`container flex flex-col mx-auto items-center justify-between font-inter`}>
+				<div className="relative flex flex-col items-center gap-4 place-items-baseline before:absolute">
+					<Image
+						className="h-auto w-40 lg:w-60"
+						width={480}
+						height={480}
+						src="/logo.png"
+						alt="Road to therapy"
+					/>
+					<h1 className="text-5xl font-bold text-center text-black lg:text-6xl font-spicy">
+						<span className="uppercase">
+							<span className="tracking-wider">Road to</span>
+							<br /> therapy
+						</span>
+					</h1>
+					<a
+						className="pointer-events-none flex place-items-center p-8 lg:pointer-events-auto lg:p-0 text-accent-500"
+						href="https://yellow-bricks.dev"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<h6>{t("metadata.author")}</h6>
+					</a>
+				</div>
+				<Feature />
+				<Stepper />
+			</section>
+		</>
 	);
 }

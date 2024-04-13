@@ -69,8 +69,8 @@ export default function Navbar() {
 										className="h-8 w-auto"
 										width={32}
 										height={32}
-										src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-										alt="Your Company"
+										src="/logo.png"
+										alt="Road to therapy"
 									/>
 								</div>
 								<div className="hidden sm:ml-6 sm:block">

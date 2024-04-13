@@ -1,5 +1,6 @@
 import Consultation from "@/components/process/consultation";
 import Overview from "@/components/process/overview";
+import Step2 from "@/components/process/Step2";
 import { ClockIcon } from "@heroicons/react/24/outline";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
@@ -16,7 +17,7 @@ const steps: Step[] = [
 	},
 	{
 		name: "step2",
-		component: Overview,
+		component: Step2,
 	},
 	{
 		name: "step3",
