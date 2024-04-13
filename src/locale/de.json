@@ -33,5 +33,32 @@
 		"first-consultation": {
 			"title": "Erstgespräch"
 		}
+	},
+	"glossary": {
+		"title": "Glossar",
+		"item1": {
+			"title": "Kostenerstattungsverfahren",
+			"description": "Wenn du gesetzlich krankenversichert bist und dringenden Bedarf hast, eine psychotherapeutische Behandlung durchführen zu lassen, aber auf dem Weg zu einem Therapieplatz gegen Wände läufst, hast du einen gesetzlichen Anspruch gegenüber deiner Krankenkasse zur Kostenübernahme eines Privatarztes. "
+		},
+		"item2": {
+			"title": "Vertragspsychotherapeut:innen / Arzt mit Kassenzulassung",
+			"description": "Diejenigen Ärzt:innen in Deutschland, die einen Vertrag mit den Gesetzlichen Krankenkassen abgeschlossen haben und ihre Leistungen dadurch direkt mit den Gesetzlichen Krankenkassen abrechnen, anstatt mit den Patienten. Die Mehrheit der in Deutschland versicherten Personen ist gesetzlich Krankenversichert. "
+		},
+		"item3": {
+			"title": "Erstgespräch / Psychotherapeutische Erstberatung / Probatorische Sitzung",
+			"description": "Eine Probatorische Sitzung ist reine Art Erstgespräch mit einem Therapeuten. In dieser Sitzung kann festgestellt werden, wie genau die folgende Behandlung aussehen sollte, welche Art der Behandlung Sinn macht und wie dringlich eine Beratung ist. In der probatorischen Sitzung wird der Konsiliarbericht ausgestellt, der für das Kostenerstattungsverfahren unerlässlich ist."
+		},
+		"item4": {
+			"title": "Formular PTV11",
+			"description": "Dieses Formular wird für das Kostenerstattungsverfahren benötigt. Es wird vom Arzt in der probatorischen Sitzung ausgestellt. Ein Muster des leeren Dokuments findest du [hier](LINKLINK). Ein beispielhaft ausgefülltes Dokument findest du [hier](LINKLINK)."
+		},
+		"item5": {
+			"title": "Konsilliarbericht",
+			"description": "Der Konsiliarbericht  ist eine schriftliche Empfehlung zur Diagnostik, Behandlung oder Therapie von einem Arzt an einen anderen Arzt. Der Konsiliarbericht wird beispielsweise von einem Psychotherapeuten nach der probatorischen Sitzung ausgestellt und dient dem später beauftragten Privatarzt als Hinweis für die anzusetzende Behandlung. Für das Kostenerstattungsverfahren wird der Konsiliarbericht in zweifacher Ausfertigung benötigt: Der Bericht wird in vierfacher Kopie wie folgt verwendet:\n* eine Kopie verbleibt zu Dokumentationszwecken beim Arzt, der den Bericht erstellt hat \n* eine Kopie geht an die Krankenkasse. Die Diagnose und Berichtinhalte werden geschwärzt. \n* eine Kopie geht an einen Gutachter, den die Krankenkasse beauftragt. Zur Anonymisierung werden Personendaten wie Name geschwärzt.\n* eine Kopie geht an den Arzt, der final die Behandlung vornimmt."
+		},
+		"item6": {
+			"title": "Terminservicestelle / TSS / 116117",
+			"description": "Die Terminservicestelle (TSS) ist Teil des gesetzlichen Auftrags der Kassenärztlichen Vereinigungen. Sie unterstützt die gesetzlich versicherten Patient:innen bei der Vermittlung in die psychotherapeutische Versorgung (Psychotherapeutische Sprechstunde, Akutbehandlung und Probatorik). Die TSS ist teilweise extrem ausgelastet und es ist mit langen telefonischen Wartezeiten von bis zu 2h zu rechnen. Leider sprechen die Sachbearbeiter:innen der TSS auch zumeist nur deutsch, sodass englisch-sprachige Personen bestenfalls einen deutschsprechenden Freund:in um Mithilfe bitten, oder alternativ [diesen Link](Link zu unserem Guide) zur Hilfe nehmen."
+		}
 	}
 }

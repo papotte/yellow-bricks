@@ -39,8 +39,8 @@ export default function Stepper() {
 	}, [currentStepIndex]);
 
 	return (
-		<>
-			<ol className="items-center mx-auto space-y-4 sm:flex sm:space-x-8 sm:space-y-0 rtl:space-x-reverse">
+		<div className={"w-3/4 gap-3 flex flex-wrap md:grid md:grid-cols-3 "}>
+			<ol className="flex md:items-start flex-col gap-4">
 				{steps.map((step, index) => (
 					<li
 						key={step.name}
@@ -68,11 +68,27 @@ export default function Stepper() {
 				))}
 			</ol>
 			{selectedStep !== null && (
-				<div className="mt-8">
-					<h2 className="mb-4">{t(selectedStep.name + ".title")}</h2>
+				<div className="col-span-2 flex flex-col">
+					<h2 className="mb-4 self-center">{t(selectedStep.name + ".title")}</h2>
 					<selectedStep.component />
+					<div className={"flex justify-between my-4 flex-row-reverse"}>
+						<button
+							onClick={() => setCurrentStepIndex(currentStepIndex + 1)}
+							disabled={currentStepIndex === steps.length - 1}
+							className={"btn btn-secondary"}
+						>
+							{t("next")}
+						</button>
+						<button
+							onClick={() => setCurrentStepIndex(currentStepIndex - 1)}
+							disabled={currentStepIndex === 0}
+							className={"btn btn-neutral hide-disabled"}
+						>
+							{t("previous")}
+						</button>
+					</div>
 				</div>
 			)}
-		</>
+		</div>
 	);
 }

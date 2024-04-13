@@ -1,22 +1,22 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from "@heroicons/react/24/outline";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 const features = [
 	{
-		name: "help",
-		icon: CloudArrowUpIcon,
+		name: "visualize",
+		src: "/icons/path.png",
 	},
 	{
-		name: "easy",
-		icon: LockClosedIcon,
+		name: "track",
+		src: "/icons/progress.png",
 	},
 	{
 		name: "resources",
-		icon: ArrowPathIcon,
+		src: "/icons/resources.png",
 	},
 	{
-		name: "feedback",
-		icon: FingerPrintIcon,
+		name: "connect",
+		src: "/icons/rainbow.png",
 	},
 ];
 
@@ -27,7 +27,7 @@ export default function Feature() {
 		<div className="py-16 sm:py-24">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl lg:text-center">
-					<h2 className="text-base font-semibold leading-7 text-accent-700 dark:text-accent-300">
+					<h2 className="hidden text-base font-semibold leading-7 text-accent-700 dark:text-accent-300">
 						{t("title")}
 					</h2>
 					<p className="mt-2 text-3xl font-bold tracking-tight text-accent-600 dark:text-accent-400 sm:text-4xl">
@@ -40,9 +40,12 @@ export default function Feature() {
 						{features.map((feature) => (
 							<div key={feature.name} className="relative pl-16">
 								<dt className="text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-200">
-									<div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-accent-600 dark:bg-accent-300">
-										<feature.icon
-											className="h-6 w-6 text-neutral dark:text-neutral-900"
+									<div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg p-1 bg-clip-content border border-accent-600 dark:border-accent-300">
+										<Image
+											src={feature.src}
+											alt={feature.name}
+											width={40}
+											height={40}
 											aria-hidden="true"
 										/>
 									</div>

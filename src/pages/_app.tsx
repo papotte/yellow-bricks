@@ -10,6 +10,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { api } from "@/plugins/trpc/api";
 import { useRouter } from "next/router";
 import React from "react";
+import "flowbite";
 
 import { Inter, Spicy_Rice } from "next/font/google";
 
