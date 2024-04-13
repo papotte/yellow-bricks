@@ -51,6 +51,14 @@ body {
 
 	svg {
 		@apply inline mx-1;
+
+		&:first-child {
+			@apply ml-0;
+		}
+
+		&:last-child {
+			@apply mr-0;
+		}
 	}
 }
 

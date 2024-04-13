@@ -1,6 +1,7 @@
 import Consultation from "@/components/process/consultation";
 import Overview from "@/components/process/overview";
 import Step2 from "@/components/process/Step2";
+import { ClockIcon } from "@heroicons/react/24/outline";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
@@ -15,11 +16,35 @@ const steps: Step[] = [
 		component: Consultation,
 	},
 	{
-		name: "step-2",
+		name: "step2",
 		component: Step2,
 	},
 	{
 		name: "step3",
+		component: Overview,
+	},
+	{
+		name: "step4",
+		component: Overview,
+	},
+	{
+		name: "step5",
+		component: Overview,
+	},
+	{
+		name: "step6",
+		component: Overview,
+	},
+	{
+		name: "step7",
+		component: Overview,
+	},
+	{
+		name: "step8",
+		component: Overview,
+	},
+	{
+		name: "step9",
 		component: Overview,
 	},
 ];
@@ -62,7 +87,9 @@ export default function Stepper() {
 						</span>
 						<span>
 							<h5 className="leading-tight">{t(step.name + ".title")}</h5>
-							<p className="text-sm">{t(step.name + ".summary")}</p>
+							<p className="text-sm">
+								<ClockIcon height={16} width={16} /> {t(step.name + ".time")}
+							</p>
 						</span>
 					</li>
 				))}

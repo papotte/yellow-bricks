@@ -22,8 +22,6 @@ export default function Home() {
 			<div
 				className="background fixed inset-0 -z-50 opacity-30"
 				style={{
-					// background:
-					// 	"linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%)",
 					background:
 						"linear-gradient(135deg, rgba(250,229,80,1) 20%, rgba(139,183,232,1) 60%, rgba(244,183,166,1) 80%)",
 				}}
@@ -37,7 +35,7 @@ export default function Home() {
 						src="/logo.png"
 						alt="Road to therapy"
 					/>
-					<h1 className="text-5xl font-bold text-center text-transparent text-black lg:text-6xl font-spicy">
+					<h1 className="text-5xl font-bold text-center text-black lg:text-6xl font-spicy">
 						<span className="uppercase">
 							<span className="tracking-wider">Road to</span>
 							<br /> therapy

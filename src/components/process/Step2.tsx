@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import React from "react";
 
 export default function Step2() {
-	const t = useTranslations("process.step-2");
+	const t = useTranslations("process.step2");
 	return (
 		<div className={`w-full flex flex-col gap-4`}>
 			<p>{t("description")}</p>

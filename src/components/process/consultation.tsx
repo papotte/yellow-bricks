@@ -27,6 +27,7 @@ export default function Consultation() {
 				<li>
 					{t.rich("how1", {
 						bold: (chunks) => <b>{chunks}</b>,
+						tel: (chunks) => <a href="tel:116117">{chunks}</a>,
 					})}
 				</li>
 				<li>
