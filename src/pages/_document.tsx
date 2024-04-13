@@ -7,6 +7,7 @@ export default function Document() {
 		<Html lang="en">
 			<Head>
 				<ThemeModeScript />
+				<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 			</Head>
 			<body>
 				<Flowbite>
