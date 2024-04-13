@@ -17,6 +17,7 @@ const config: Config = {
 				accent: colors.amber,
 			},
 			fontFamily: {
+				lexend: ["var(--font-lexend)"],
 				spicy: ["var(--font-spicy-rice)"],
 			},
 		},

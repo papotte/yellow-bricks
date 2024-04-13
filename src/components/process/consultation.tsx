@@ -59,27 +59,15 @@ export default function Consultation() {
 			<h3>{t("goals")}</h3>
 			<form className={"flex flex-col gap-1"} onChange={changeState}>
 				{checkboxes.map((checkbox) => (
-					<div key={checkbox.id} className="flex items-center mb-4">
-						<input
-							id={checkbox.id}
-							type="checkbox"
-							value=""
-							className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-						/>
-						<label
-							htmlFor={checkbox.id}
-							className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-						>
+					<div key={checkbox.id} className="flex items-center mb-4 checkbox-field">
+						<input id={checkbox.id} type="checkbox" value="" />
+						<label htmlFor={checkbox.id}>
 							{t(`checkbox-${checkbox.id}`)}
 							<span data-tooltip-target={"tooltip-" + checkbox.id}>
 								<QuestionMarkCircleIcon width={12} height={12} />
 							</span>
 						</label>
-						<div
-							id={"tooltip-" + checkbox.id}
-							role="tooltip"
-							className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
-						>
+						<div id={"tooltip-" + checkbox.id} role="tooltip" className="tooltip invisible">
 							{t(checkbox.id + "-help")}
 							<div className="tooltip-arrow" data-popper-arrow></div>
 						</div>
