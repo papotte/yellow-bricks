@@ -26,7 +26,7 @@ const GlossaryPage = () => {
 				{Array.from({ length: itemNumber }).map((value, index: any) => (
 					<li key={index} className="flex flex-col gap-2">
 						<h5>{t(`item${index + 1}.title`)}</h5>
-						<p>{t(`item${index + 1}.description`)}</p>
+						<p className="whitespace-break-spaces">{t(`item${index + 1}.description`)}</p>
 					</li>
 				))}
 			</ul>

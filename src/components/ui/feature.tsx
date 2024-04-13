@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import React from "react";
 
 const features = [
 	{
@@ -34,14 +35,27 @@ export default function Feature() {
 						{t("subtitle")}
 					</p>
 					<p className="mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-200">{t("description")}</p>
+					<p className="text-neutral-500 text-justify whitespace-break-spaces	">
+						{t.rich("content", {
+							link: (chunks) => (
+								<a href="https://www.pksh.de/sites/default/files/2016-12/BPtK_Flyer_Kostenerstattung_englisch.pdf">
+									{chunks}
+								</a>
+							),
+						})}
+					</p>
 				</div>
 				<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
 					<dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 						{features.map((feature) => (
 							<div key={feature.name} className="relative pl-16">
 								<dt className="text-base font-semibold leading-7 text-neutral-900 dark:text-neutral-200">
-									<div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg p-1 bg-clip-content border border-accent-600 dark:border-accent-300">
+									<div
+										className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-clip-border
+									border border-accent-600 dark:border-accent-300 bg-neutral-200"
+									>
 										<Image
+											className={`w-3/5`}
 											src={feature.src}
 											alt={feature.name}
 											width={40}

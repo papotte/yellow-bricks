@@ -8,6 +8,7 @@
 			"title": "LGBTQIA+ First!"
 		},
 		"description": "Therapy reimbursement helper for LGBT+ people in Germany",
+		"content": "Are you covered by public health insurance and have been looking for a therapist for a long time? Did you know that you have the right to out-of-network reimbursement? \n\nSounds complicated? All it means is that you can start therapy with a therapist who is not usually covered by your health insurance and still have your health insurance pay for your sessions.  \n\n<link>You can read more about this reimbursement here.</link>\n\nYou do have to complete a process that can seem a little overwhelming – but don’t worry, we’re here to help! \n\nOur interactive checklist will guide you through every step of the way.",
 		"resources": {
 			"description": "Find resources and information to help you navigate the German healthcare system, such as our Glossary to boost your confidence with difficult terms.",
 			"title": "Resources"
@@ -107,13 +108,13 @@
 		"first-consultation": {
 			"checkbox-goal-1": "Get PTV11 - confirms the necessity (indication) of psychotherapy in a guideline procedure",
 			"checkbox-goal-2": "Get a confirmation that the treatment can not take place at this practice",
-			"description": "Since the introduction of the new psychotherapy guideline in 2017, you must visit a so-called \"psychotherapeutische Sprechstunde\" or ”Erstgespräch”, a session that confirms the necessity (indication) of psychotherapy in a guideline procedure. This appointment has to happen in a practice that takes publicly insured clients.",
+			"description": "Since the introduction of the new psychotherapy guideline in 2017, you must visit a so-called \"psychotherapeutische Sprechstunde\" or \"Erstgespräch\", a session that confirms the necessity (indication) of psychotherapy in a guideline procedure. This appointment has to happen in a practice that takes publicly insured clients.",
 			"goal-1-help": "should contain \"zeitnah erforderlich\", \"Verhaltenstherapie\", \"Dringlichkeitscode\"",
 			"goal-2-help": "should contain the following German words: \"Die Behandlung kann nicht in dieser Praxis stattfinden\"",
 			"goals": "Goals",
 			"how": "How to do this?",
 			"how-summary": "You can find a therapist for an initial consultation in one of the following ways:",
-			"how1": "Call 116117 (Terminservicestelle/<bold>TSS</bold>) OR",
+			"how1": "Call <tel>116117</tel> (Terminservicestelle/<bold>TSS</bold>) OR",
 			"how2": "Visit <link>116117.de</link> website OR",
 			"how3": "Call local therapists",
 			"tips": "Tips",
