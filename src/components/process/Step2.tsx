@@ -26,8 +26,8 @@ export default function Step2() {
 				<li>
 					{t.rich("tip3", {
 						link: (chunks) => (
-							<a href={chunks as string} target="_blank" rel="noopener noreferrer">
-								this template
+							<a href="/forms/search_protocol.pdf" target="_blank" rel="noopener noreferrer">
+								{chunks}
 							</a>
 						),
 					})}
