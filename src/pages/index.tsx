@@ -1,10 +1,8 @@
 import Stepper from "@/components/process/stepper";
 import Feature from "@/components/ui/feature";
 import { useTranslations } from "next-intl";
-import { Inter } from "next/font/google";
 import React from "react";
-
-const inter = Inter({ subsets: ["latin"] });
+import Image from "next/image";
 
 export async function getStaticProps(context: any) {
 	return {
@@ -20,11 +18,11 @@ export async function getStaticProps(context: any) {
 export default function Home() {
 	const t = useTranslations();
 	return (
-		<main className={`container flex flex-col mx-auto items-center justify-between ${inter.className}`}>
+		<section className={`container flex flex-col mx-auto items-center justify-between font-inter`}>
 			<div className="relative flex gap-4 place-items-baseline before:absolute">
 				<h1
 					className="text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-tr from-primary-900 to-70% to-accent-900 dark:from-primary-200
-                dark:to-accent-500 lg:text-6xl"
+                dark:to-accent-500 lg:text-6xl font-spicy"
 				>
 					{t("metadata.title")}
 				</h1>
@@ -39,6 +37,6 @@ export default function Home() {
 			</div>
 			<Feature />
 			<Stepper />
-		</main>
+		</section>
 	);
 }

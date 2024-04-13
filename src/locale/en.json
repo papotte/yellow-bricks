@@ -66,6 +66,19 @@
 			"tips-seats": "Even if a therapist doesn't have seats available, they can confirm the necessity of psychotherapy",
 			"goals": "Goals"
 		},
+		"step-2": {
+			"title": "Contact different therapists",
+			"description": "Contact psychotherapists with public health insurance approval. Since you need to prove that timely treatment with psychotherapists with health insurance approval was not possible, log your calls.",
+			"how": "How to do this?",
+			"how1": "Call the practices or write emails to 20 different therapists covered by public health insurance",
+			"how2": "Log your calls (name, date, possibly time, and earliest possible treatment date)",
+			"tips": "Tips",
+			"tip1": "You can find queer-friendly therapists using <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> (make sure to select “Psychotherapy” and your city in the search mask)",
+			"tip2": "Not receiving a response to your emails for two weeks or the answering machine informing you that there are no capacities also counts as proof.",
+			"tip3": "You can use <link>/forms/search_protocol.pdf</link> to create your protocol of rejections (”Absageprotokoll”)",
+			"goals": "Goals",
+			"goal1": "Have proof of rejections of 20 therapists in your Absageprotokoll"
+		},
 		"email": {
 			"title": "Email"
 		},

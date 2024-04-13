@@ -16,6 +16,9 @@ const config: Config = {
 				secondary: colors.yellow,
 				accent: colors.amber,
 			},
+			fontFamily: {
+				spicy: ["var(--font-spicy-rice)"],
+			},
 		},
 	},
 	plugins: [require("flowbite/plugin")],
