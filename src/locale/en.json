@@ -114,7 +114,7 @@
 			"tip2": "Not receiving a response to your emails for two weeks or the answering machine informing you that there are no capacities also counts as proof.",
 			"tip3": "You can use <link>/forms/search_protocol.pdf</link> to create your protocol of rejections (”Absageprotokoll”)",
 			"goals": "Goals",
-			"goal1": "Have proof of rejections of 20 therapists in your Absageprotokoll"
+			"checkbox-goal-1": "Have proof of rejections of 20 therapists in your \"Absageprotokoll\""
 		},
 		"step3": {
 			"title": "Visit a GP or psychiatrist",

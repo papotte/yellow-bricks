@@ -1,23 +1,16 @@
+import GoalForm from "@/components/process/form";
 import { QuestionMarkCircleIcon } from "@heroicons/react/16/solid";
 import { useTranslations } from "next-intl";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-const checkboxes = [{ id: "goal-1" }, { id: "goal-2" }];
+const checkboxes = [
+	{ id: "goal-1", tooltip: true },
+	{ id: "goal-2", tooltip: true },
+];
 export default function Consultation() {
-	const t = useTranslations("process.first-consultation");
+	const translationPath = "process.first-consultation";
+	const t = useTranslations(translationPath);
 
-	const [formState, setFormState] = useState({});
-
-	useEffect(() => {
-		console.log(formState);
-	}, [formState]);
-
-	const changeState = (e: any) => {
-		setFormState({
-			...formState,
-			[e.target.id]: e.target.checked,
-		});
-	};
 	return (
 		<div className={`w-full flex flex-col gap-4`}>
 			<p>{t("description")}</p>
@@ -56,24 +49,7 @@ export default function Consultation() {
 				{t("tips-keywords-help")}
 				<div className="tooltip-arrow" data-popper-arrow></div>
 			</div>
-			<h3>{t("goals")}</h3>
-			<form className={"flex flex-col gap-1"} onChange={changeState}>
-				{checkboxes.map((checkbox) => (
-					<div key={checkbox.id} className="flex items-center mb-4 checkbox-field">
-						<input id={checkbox.id} type="checkbox" value="" />
-						<label htmlFor={checkbox.id}>
-							{t(`checkbox-${checkbox.id}`)}
-							<span data-tooltip-target={"tooltip-" + checkbox.id}>
-								<QuestionMarkCircleIcon width={12} height={12} />
-							</span>
-						</label>
-						<div id={"tooltip-" + checkbox.id} role="tooltip" className="tooltip invisible">
-							{t(checkbox.id + "-help")}
-							<div className="tooltip-arrow" data-popper-arrow></div>
-						</div>
-					</div>
-				))}
-			</form>
+			<GoalForm translationPath={translationPath} checkboxes={checkboxes} />
 		</div>
 	);
 }
