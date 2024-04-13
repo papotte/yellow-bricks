@@ -4,6 +4,13 @@ import Step2 from "@/components/process/Step2";
 import { ClockIcon } from "@heroicons/react/24/outline";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import Step3 from "./Step3";
+import Step4 from "./Step4";
+import Step5 from "./Step5";
+import Step6 from "./Step6";
+import Step7 from "./Step7";
+import Step8 from "./Step8";
+import Step9 from "./Step9";
 
 type Step = {
 	name: string;
@@ -21,31 +28,31 @@ const steps: Step[] = [
 	},
 	{
 		name: "step3",
-		component: Overview,
+		component: Step3,
 	},
 	{
 		name: "step4",
-		component: Overview,
+		component: Step4,
 	},
 	{
 		name: "step5",
-		component: Overview,
+		component: Step5,
 	},
 	{
 		name: "step6",
-		component: Overview,
+		component: Step6,
 	},
 	{
 		name: "step7",
-		component: Overview,
+		component: Step7,
 	},
 	{
 		name: "step8",
-		component: Overview,
+		component: Step8,
 	},
 	{
 		name: "step9",
-		component: Overview,
+		component: Step9,
 	},
 ];
 
