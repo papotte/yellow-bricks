@@ -52,6 +52,8 @@
 		}
 	},
 	"process": {
+		"next": "Next",
+		"previous": "Previous",
 		"first-consultation": {
 			"title": "First Consultation",
 			"description": "Since the introduction of the new psychotherapy guideline in 2017, you must visit a so-called \"psychotherapeutische Sprechstunde\" or ”Erstgespräch”, a session that confirms the necessity (indication) of psychotherapy in a guideline procedure. This appointment has to happen in a practice that takes publicly insured clients.",
@@ -64,7 +66,11 @@
 			"tips-keywords": "Important keywords to look for: GKV-Praxis, Vertragspsychotherapeut:in",
 			"tips-keywords-help": "If you are looking for a therapist who takes public insurance, you should look for a practice that is a GKV-Praxis and the therapist is a Vertragspsychotherapeut:in. This means that the therapist has a contract with the public insurance companies and can treat you as a public insurance client.",
 			"tips-seats": "Even if a therapist doesn't have seats available, they can confirm the necessity of psychotherapy",
-			"goals": "Goals"
+			"goals": "Goals",
+			"checkbox-goal-1": "Get PTV11 - confirms the necessity (indication) of psychotherapy in a guideline procedure",
+			"goal-1-help": "should contain \"zeitnah erforderlich\", \"Verhaltenstherapie\", \"Dringlichkeitscode\"",
+			"checkbox-goal-2": "Get a confirmation that the treatment can not take place at this practice",
+			"goal-2-help": "should contain the following German words: \"Die Behandlung kann nicht in dieser Praxis stattfinden\""
 		},
 		"email": {
 			"title": "Email"

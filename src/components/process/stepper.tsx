@@ -67,9 +67,25 @@ export default function Stepper() {
 				))}
 			</ol>
 			{selectedStep !== null && (
-				<div className="mt-8">
-					<h2 className="mb-4">{t(selectedStep.name + ".title")}</h2>
+				<div className="mt-8 w-3/4 flex flex-col">
+					<h2 className="mb-4 self-center">{t(selectedStep.name + ".title")}</h2>
 					<selectedStep.component />
+					<div className={"flex justify-between my-4 flex-row-reverse"}>
+						<button
+							onClick={() => setCurrentStepIndex(currentStepIndex + 1)}
+							disabled={currentStepIndex === steps.length - 1}
+							className={"btn btn-secondary"}
+						>
+							{t("next")}
+						</button>
+						<button
+							onClick={() => setCurrentStepIndex(currentStepIndex - 1)}
+							disabled={currentStepIndex === 0}
+							className={"btn btn-neutral hide-disabled"}
+						>
+							{t("previous")}
+						</button>
+					</div>
 				</div>
 			)}
 		</>

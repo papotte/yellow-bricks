@@ -1,9 +1,23 @@
 import { QuestionMarkCircleIcon } from "@heroicons/react/16/solid";
 import { useTranslations } from "next-intl";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
+const checkboxes = [{ id: "goal-1" }, { id: "goal-2" }];
 export default function Consultation() {
 	const t = useTranslations("process.first-consultation");
+
+	const [formState, setFormState] = useState({});
+
+	useEffect(() => {
+		console.log(formState);
+	}, [formState]);
+
+	const changeState = (e: any) => {
+		setFormState({
+			...formState,
+			[e.target.id]: e.target.checked,
+		});
+	};
 	return (
 		<div className={`w-full flex flex-col gap-4`}>
 			<p>{t("description")}</p>
@@ -25,9 +39,11 @@ export default function Consultation() {
 			<h5>{t("tips")}</h5>
 			<ul className="list-disc list-inside">
 				<li>
-					<span data-tooltip-target="tooltip-keywords" className={"inline-flex"}>
+					<span className={"inline-flex"}>
 						{t("tips-keywords")}
-						<QuestionMarkCircleIcon width={12} height={12} />
+						<span data-tooltip-target="tooltip-keywords">
+							<QuestionMarkCircleIcon width={12} height={12} />
+						</span>
 					</span>
 				</li>
 
@@ -42,7 +58,35 @@ export default function Consultation() {
 				<div className="tooltip-arrow" data-popper-arrow></div>
 			</div>
 			<h3>{t("goals")}</h3>
-			<div className="flex items-center mb-4"></div>
+			<form className={"flex flex-col gap-1"} onChange={changeState}>
+				{checkboxes.map((checkbox) => (
+					<div key={checkbox.id} className="flex items-center mb-4">
+						<input
+							id={checkbox.id}
+							type="checkbox"
+							value=""
+							className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+						/>
+						<label
+							htmlFor={checkbox.id}
+							className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 inline-flex"
+						>
+							{t(`checkbox-${checkbox.id}`)}
+							<span data-tooltip-target={"tooltip-" + checkbox.id}>
+								<QuestionMarkCircleIcon width={12} height={12} />
+							</span>
+						</label>
+						<div
+							id={"tooltip-" + checkbox.id}
+							role="tooltip"
+							className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
+						>
+							{t(checkbox.id + "-help")}
+							<div className="tooltip-arrow" data-popper-arrow></div>
+						</div>
+					</div>
+				))}
+			</form>
 		</div>
 	);
 }
