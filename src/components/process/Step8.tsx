@@ -14,7 +14,7 @@ export default function Step8() {
 			<ul className="list-disc list-inside">
 				<li>{t("how1")}</li>
 			</ul>
-			<h3>{t("goals")}</h3> <GoalForm translationPath={translationPath} checkboxes={checkboxes} />
+			<GoalForm translationPath={translationPath} checkboxes={checkboxes} />
 		</div>
 	);
 }
