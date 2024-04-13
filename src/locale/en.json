@@ -1,0 +1,32 @@
+{
+	"error": {
+		"loading": "Failed to load"
+	},
+	"metadata": {
+		"author": "By YellowBricks",
+		"subtitle": "By YellowBricks",
+		"title": "Road to Therapy"
+	},
+	"navigation": {
+		"about": "About",
+		"home": "Home",
+		"imprint": "Imprint",
+		"language": {
+			"de": "German",
+			"en": "English",
+			"title": "Language"
+		},
+		"menu": "Open main menu",
+		"notifications": "View notifications",
+		"privacy": "Privacy",
+		"start": "Get started",
+		"survey": "Help us with your input!",
+		"userMenu": {
+			"login": "Login",
+			"logout": "Logout",
+			"profile": "Profile",
+			"settings": "Settings",
+			"title": "Open user menu"
+		}
+	}
+}
