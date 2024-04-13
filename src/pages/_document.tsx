@@ -8,6 +8,7 @@ export default function Document() {
 			<Head>
 				<ThemeModeScript />
 				<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+				<title>Road to Therapy by YellowBricks</title>
 			</Head>
 			<body>
 				<Flowbite>

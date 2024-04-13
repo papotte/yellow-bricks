@@ -7,8 +7,8 @@
 			"description": "Queer individuals in Germany are 2.6 times more likely to have mental health challenges. We want to help connect you with LGBTQIA+ experienced therapists.",
 			"title": "LGBTQIA+ First!"
 		},
-		"description": "Therapy reimbursement helper for LGBT+ people in Germany",
 		"content": "Are you covered by public health insurance and have been looking for a therapist for a long time? Did you know that you have the right to out-of-network reimbursement? \n\nSounds complicated? All it means is that you can start therapy with a therapist who is not usually covered by your health insurance and still have your health insurance pay for your sessions.  \n\n<link>You can read more about this reimbursement here.</link>\n\nYou do have to complete a process that can seem a little overwhelming – but don’t worry, we’re here to help! \n\nOur interactive checklist will guide you through every step of the way.",
+		"description": "Therapy reimbursement helper for LGBT+ people in Germany",
 		"resources": {
 			"description": "Find resources and information to help you navigate the German healthcare system, such as our Glossary to boost your confidence with difficult terms.",
 			"title": "Resources"
@@ -52,7 +52,8 @@
 			"description": "The Appointment Service Center (TSS) is part of the statutory mandate of the Associations of Statutory Health Insurance Physicians. It supports patients with statutory health insurance in obtaining psychotherapeutic care (psychotherapeutic consultations, acute treatment and trial treatment). The TSS is sometimes extremely busy and long telephone waiting times of up to 2 hours can be expected. Unfortunately, the TSS staff usually only speak German, so English-speaking people should at best ask a German-speaking friend for help, or alternatively use [this link](link to our guide).",
 			"title": "Appointment service center - Terminservicestelle / TSS / 116117"
 		},
-		"title": "Glossary"
+		"title": "Glossary",
+		"description": "Here you can find explanations of important terms that you will encounter on your way to therapy."
 	},
 	"metadata": {
 		"author": "By YellowBricks",
@@ -97,99 +98,11 @@
 			"content": "This is the privacy page."
 		},
 		"resources": {
-			"content": "This is the resources page.",
+			"content": "Here you can find resources and information to help you navigate the German healthcare system.",
 			"title": "Resources"
 		}
 	},
 	"process": {
-		"step2": {
-			"title": "Contact public therapists",
-			"time": "2 weeks avg. waiting time",
-			"description": "Contact psychotherapists with public health insurance approval. Since you need to prove that timely treatment with psychotherapists with health insurance approval was not possible, log your calls.",
-			"how": "How to do this?",
-			"how1": "Call the practices or write emails to 20 different therapists covered by public health insurance",
-			"how2": "Log your calls (name, date, possibly time, and earliest possible treatment date)",
-			"tips": "Tips",
-			"tip1": "You can find queer-friendly therapists using <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> (make sure to select “Psychotherapy” and your city in the search mask)",
-			"tip2": "Not receiving a response to your emails for two weeks or the answering machine informing you that there are no capacities also counts as proof.",
-			"tip3": "You can use this template to create your protocol of rejections (”Absageprotokoll”).",
-			"goals": "Goals",
-			"checkbox-goal-1": "Have proof of rejections of 20 therapists in your Absageprotokoll"
-		},
-		"step3": {
-			"title": "Visit a GP or psychiatrist",
-			"time": "2 weeks avg. waiting time",
-			"description": "Make an appointment with your general practitioner (”Hausarzt”) or a psychiatrist and have them fill out a so-called “urgent medical report”.",
-			"how": "How to do this?",
-			"how1": "Make appointment with GP or psychiatrist",
-			"how2": "Have them fill out the Konsiliarbericht",
-			"how3": "Have them fill out the Dringlichkeitsbescheinigung",
-			"tips": "Tips",
-			"tip1": "Most doctors use their own templates, but you can also use these templates.",
-			"goals": "Goals",
-			"checkbox-goal-1": "Have filled out Konsiliarbericht and Dringlichkeitsbescheinigung."
-		},
-		"step4": {
-			"title": "Contact TSS",
-			"time": "no waiting time",
-			"description": "Some health insurance companies, like TK and Mobil KK, now insist that you need to have contacted the Terminservicestelle (TSS), which in theory is unnecessary since they do not mediate any appointments, but you’re still required to show that you have at least tried to get mediation.",
-			"how": "How to do this?",
-			"how1": "Call 116 117 with the urgency code (“Dringlichkeitscode”) you received from the psychotherapist in the “Erstgespräch” or search online on 116117.de for an appointment with your urgency code",
-			"how2": "Fill in the Notice of Unsuccessful Appointment Mediation (”Mitteilung zur erfolglosen Terminvermittlung”) and check “Die TSS konnte keine probatorischen Sitzungen/Sprechstunde zeitnah vermitteln.”",
-			"tips": "Tips",
-			"tip1": "Make sure that the date of first contact is after the date you received the PTV11 and urgency code.",
-			"goals": "Goals",
-			"checkbox-goal-1": "Filled in Notice of Unsuccessful Appointment Mediation and checked “Die TSS konnte keine probatorischen Sitzungen/Sprechstunde zeitnah vermitteln”."
-		},
-		"step5": {
-			"title": "Contact private therapists",
-			"time": "2 weeks avg. waiting time",
-			"description": "Find a therapist with a private practice who is open to taking part in the reimbursement procedure and get confirmation that they would take you on. ",
-			"how": "How to do this?",
-			"how1": "Look for therapists with a private practice who are willing to take part in the reimbursement procedure.",
-			"how2": "Contact them to find out if they have space for you.",
-			"tips": "Tips",
-			"tip1": "You can find queer-friendly therapists using <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> (make sure to select “Psychotherapy” and your city in the search mask)",
-			"goals": "Goals",
-			"checkbox-goal-1": "Have confirmation from a private therapist that you can start therapy with them and that they’re willing to take part in the reimbursement procedure."
-		},
-		"step6": {
-			"title": "Fill in the form",
-			"time": "no waiting time",
-			"description": "This one is relatively straightforward. Fill in the provided template for the Application for Probatory (”Antrag auf Probatorik”) and make sure to sign it.",
-			"how": "How to do this?",
-			"how1": "Fill in the Application for Probatory and sign it.",
-			"goals": "Goals",
-			"checkbox-goal-1": "Form filled in and signed."
-		},
-		"step7": {
-			"title": "Gather all your documents",
-			"time": "no waiting time",
-			"description": "Send all the documents you’ve gathered in the previous step to your new therapist. They will have let you know if they prefer to receive the documents via email or via post. Your therapist will take it from there, adding any other necessary documents and sending everything to your health insurance provider. ",
-			"checklist": "Checklist",
-			"checklist1": "PTV11 with the words “zeitnah erforderlich”, “Verhaltenstherapie”, “Dringlichkeitscode” (filled in by the therapist in your Erstgespräch)",
-			"checklist2": "Absageprotokoll (filled in by yourself)",
-			"checklist3": "Konsiliarbericht (filled in by your GP/psychiatrist)",
-			"checklist4": "Dringlichkeitsbescheinigung (filled in by your GP/psychiatrist)",
-			"checklist5": "Mitteilung zur erfolglosen Terminvermittlung (filled in by yourself)",
-			"checklist6": "Antrag auf Probatorik (filled in by yourself)",
-			"goals": "Goals",
-			"checkbox-goal-1": "All documents listed above ready for sending to your new therapist. "
-		},
-		"step8": {
-			"title": "Send documents",
-			"time": "ca. 20 minutes",
-			"description": "Send all the documents you’ve gathered in the previous step to your new therapist. They will have let you know if they prefer to receive the documents via email or via post. Your therapist will take it from there, adding any other necessary documents and sending everything to your health insurance provider.",
-			"how": "How to do this?",
-			"how1": "Send documents to your new therapist for them to start the reimbursement procedure with your health insurance provider.",
-			"goals": "Goals",
-			"checkbox-goal-1": "Get confirmation from your therapist that they received your documents."
-		},
-		"step9": {
-			"title": "You're done 🥳",
-			"time": "4 weeks avg. waiting time",
-			"description": "You did it! Now it’s time to wait for your health insurance provider to approve. This can take a few weeks. But don’t worry, they’re legally obliged to grant you this reimbursement."
-		},
 		"first-consultation": {
 			"checkbox-goal-1": "Get PTV11 - confirms the necessity (indication) of psychotherapy in a guideline procedure",
 			"checkbox-goal-2": "Get a confirmation that the treatment can not take place at this practice",
@@ -202,20 +115,111 @@
 			"how1": "Call <tel>116117</tel> (Terminservicestelle/<bold>TSS</bold>) OR",
 			"how2": "Visit <link>116117.de</link> website OR",
 			"how3": "Call local therapists",
+			"time": "3 weeks avg. waiting time",
 			"tips": "Tips",
 			"tips-keywords": "Important keywords to look for: GKV-Praxis, Vertragspsychotherapeut:in",
 			"tips-keywords-help": "If you are looking for a therapist who takes public insurance, you should look for a practice that is a GKV-Praxis and the therapist is a Vertragspsychotherapeut:in. This means that the therapist has a contract with the public insurance companies and can treat you as a public insurance client.",
 			"tips-seats": "Even if a therapist doesn't have seats available, they can confirm the necessity of psychotherapy",
-			"title": "Get first consultation",
-			"time": "3 weeks avg. waiting time"
-		},
-		"email": {
-			"title": "Email"
+			"title": "Get first consultation"
 		},
 		"next": "Next",
-		"overview": {
-			"title": "Overview"
+		"previous": "Previous",
+		"step2": {
+			"checkbox-goal-1": "Have proof of rejections of 20 therapists in your Absageprotokoll",
+			"description": "Contact psychotherapists with public health insurance approval. Since you need to prove that timely treatment with psychotherapists with health insurance approval was not possible, log your calls.",
+			"goals": "Goals",
+			"how": "How to do this?",
+			"how1": "Call the practices or write emails to 20 different therapists covered by public health insurance",
+			"how2": "Log your calls (name, date, possibly time, and earliest possible treatment date)",
+			"time": "2 weeks avg. waiting time",
+			"tip1": "You can find queer-friendly therapists using <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> (make sure to select “Psychotherapy” and your city in the search mask)",
+			"tip2": "Not receiving a response to your emails for two weeks or the answering machine informing you that there are no capacities also counts as proof.",
+			"tip3": "You can use this template to create your protocol of rejections (”Absageprotokoll”).",
+			"tips": "Tips",
+			"title": "Contact public therapists"
 		},
-		"previous": "Previous"
+		"step3": {
+			"checkbox-goal-1": "Have filled out Konsiliarbericht and Dringlichkeitsbescheinigung.",
+			"description": "Make an appointment with your general practitioner (”Hausarzt”) or a psychiatrist and have them fill out a so-called “urgent medical report”.",
+			"goals": "Goals",
+			"how": "How to do this?",
+			"how1": "Make appointment with GP or psychiatrist",
+			"how2": "Have them fill out the Konsiliarbericht",
+			"how3": "Have them fill out the Dringlichkeitsbescheinigung",
+			"time": "2 weeks avg. waiting time",
+			"tip1": "Most doctors use their own templates, but you can also use these templates.",
+			"tips": "Tips",
+			"title": "Visit a GP or psychiatrist"
+		},
+		"step4": {
+			"checkbox-goal-1": "Filled in Notice of Unsuccessful Appointment Mediation and checked “Die TSS konnte keine probatorischen Sitzungen/Sprechstunde zeitnah vermitteln”.",
+			"description": "Some health insurance companies, like TK and Mobil KK, now insist that you need to have contacted the Terminservicestelle (TSS), which in theory is unnecessary since they do not mediate any appointments, but you’re still required to show that you have at least tried to get mediation.",
+			"goals": "Goals",
+			"how": "How to do this?",
+			"how1": "Call 116 117 with the urgency code (“Dringlichkeitscode”) you received from the psychotherapist in the “Erstgespräch” or search online on 116117.de for an appointment with your urgency code",
+			"how2": "Fill in the Notice of Unsuccessful Appointment Mediation (”Mitteilung zur erfolglosen Terminvermittlung”) and check “Die TSS konnte keine probatorischen Sitzungen/Sprechstunde zeitnah vermitteln.”",
+			"time": "no waiting time",
+			"tip1": "Make sure that the date of first contact is after the date you received the PTV11 and urgency code.",
+			"tips": "Tips",
+			"title": "Contact TSS"
+		},
+		"step5": {
+			"checkbox-goal-1": "Have confirmation from a private therapist that you can start therapy with them and that they’re willing to take part in the reimbursement procedure.",
+			"description": "Find a therapist with a private practice who is open to taking part in the reimbursement procedure and get confirmation that they would take you on. ",
+			"goals": "Goals",
+			"how": "How to do this?",
+			"how1": "Look for therapists with a private practice who are willing to take part in the reimbursement procedure.",
+			"how2": "Contact them to find out if they have space for you.",
+			"time": "2 weeks avg. waiting time",
+			"tip1": "You can find queer-friendly therapists using <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> (make sure to select “Psychotherapy” and your city in the search mask)",
+			"tips": "Tips",
+			"title": "Contact private therapists"
+		},
+		"step6": {
+			"checkbox-goal-1": "Form filled in and signed.",
+			"description": "This one is relatively straightforward. Fill in the provided template for the Application for Probatory (”Antrag auf Probatorik”) and make sure to sign it.",
+			"goals": "Goals",
+			"how": "How to do this?",
+			"how1": "Fill in the Application for Probatory and sign it.",
+			"time": "no waiting time",
+			"title": "Fill in the form"
+		},
+		"step7": {
+			"checkbox-goal-1": "All documents listed above ready for sending to your new therapist. ",
+			"checklist": "Checklist",
+			"checklist1": "PTV11 with the words “zeitnah erforderlich”, “Verhaltenstherapie”, “Dringlichkeitscode” (filled in by the therapist in your Erstgespräch)",
+			"checklist2": "Absageprotokoll (filled in by yourself)",
+			"checklist3": "Konsiliarbericht (filled in by your GP/psychiatrist)",
+			"checklist4": "Dringlichkeitsbescheinigung (filled in by your GP/psychiatrist)",
+			"checklist5": "Mitteilung zur erfolglosen Terminvermittlung (filled in by yourself)",
+			"checklist6": "Antrag auf Probatorik (filled in by yourself)",
+			"description": "Send all the documents you’ve gathered in the previous step to your new therapist. They will have let you know if they prefer to receive the documents via email or via post. Your therapist will take it from there, adding any other necessary documents and sending everything to your health insurance provider. ",
+			"goals": "Goals",
+			"time": "no waiting time",
+			"title": "Gather all your documents"
+		},
+		"step7-docs": {
+			"goals": "Checklist",
+			"checkbox-doc-1": "PTV11 with the words “zeitnah erforderlich”, “Verhaltenstherapie”, “Dringlichkeitscode” (filled in by the therapist in your Erstgespräch)",
+			"checkbox-doc-2": "Absageprotokoll (filled in by yourself)",
+			"checkbox-doc-3": "Konsiliarbericht (filled in by your GP/psychiatrist)",
+			"checkbox-doc-4": "Dringlichkeitsbescheinigung (filled in by your GP/psychiatrist)",
+			"checkbox-doc-5": "Mitteilung zur erfolglosen Terminvermittlung (filled in by yourself)",
+			"checkbox-doc-6": "Antrag auf Probatorik (filled in by yourself)"
+		},
+		"step8": {
+			"checkbox-goal-1": "Get confirmation from your therapist that they received your documents.",
+			"description": "Send all the documents you’ve gathered in the previous step to your new therapist. They will have let you know if they prefer to receive the documents via email or via post. Your therapist will take it from there, adding any other necessary documents and sending everything to your health insurance provider.",
+			"goals": "Goals",
+			"how": "How to do this?",
+			"how1": "Send documents to your new therapist for them to start the reimbursement procedure with your health insurance provider.",
+			"time": "ca. 20 minutes",
+			"title": "Send documents"
+		},
+		"step9": {
+			"description": "You did it! Now it’s time to wait for your health insurance provider to approve. This can take a few weeks. But don’t worry, they’re legally obliged to grant you this reimbursement.",
+			"time": "4 weeks avg. waiting time",
+			"title": "You're done 🥳"
+		}
 	}
 }

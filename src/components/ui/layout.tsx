@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
-		<div className={`w-full`}>
+		<div className={`w-full mb-2`}>
 			{/* Include shared UI here e.g. a header or sidebar */}
 			<Navbar />
 			<main className={`container flex flex-col mx-auto items-center justify-between ${inter.className}`}>

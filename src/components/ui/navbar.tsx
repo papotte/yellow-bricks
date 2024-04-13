@@ -94,14 +94,16 @@ export default function Navbar() {
 								</div>
 							</div>
 							<div className="absolute inset-y-0 right-0 flex items-center pr-2 gap-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-								<button
-									type="button"
-									className="inline-flex font-mono justify-center rounded-md border border-transparent bg-accent-100 px-4 py-2
+								<Link href="https://forms.gle/7Mj56GCtbVMdxLak9" target="_blank">
+									<button
+										type="button"
+										className="inline-flex font-mono justify-center rounded-md border border-transparent bg-accent-100 px-4 py-2
                                     text-sm font-medium text-accent-900 hover:bg-accent-200 focus:outline-none focus-visible:ring-2
                                     focus-visible:ring-accent-500 focus-visible:ring-offset-2"
-								>
-									{t("survey")}
-								</button>
+									>
+										{t("survey")}
+									</button>
+								</Link>
 								<button
 									type="button"
 									className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none

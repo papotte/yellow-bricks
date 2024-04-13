@@ -7,8 +7,8 @@
 			"description": "Queere Personen in Deutschland haben eine 2,6 Mal höhere Wahrscheinlichkeit für psychische Gesundheitsherausforderungen. Wir möchten Ihnen helfen, sich mit erfahrenen LGBTQIA+ Therapeuten zu verbinden.",
 			"title": "LGBTQIA+ zuerst!"
 		},
-		"description": "Hilfsmittel zur Therapiekostenerstattung für LGBT+ Personen in Deutschland",
 		"content": "Sind Sie gesetzlich versichert und suchen schon lange nach einem Therapeuten? Wussten Sie, dass Sie ein Recht auf Kostenerstattung außerhalb des Netzwerks haben?\n\nKlingt das kompliziert? Es bedeutet lediglich, dass Sie eine Therapie mit einem Therapeuten beginnen können, der normalerweise nicht von Ihrer Krankenversicherung abgedeckt ist, und dennoch Ihre Krankenversicherung für Ihre Sitzungen aufkommt.\n\n<link>Hier können Sie mehr über diese Erstattung erfahren.</link>\n\nSie müssen einen Prozess durchlaufen, der ein wenig überwältigend erscheinen kann – aber keine Sorge, wir sind hier, um zu helfen!\n\nUnsere interaktive Checkliste wird Sie Schritt für Schritt begleiten.",
+		"description": "Hilfsmittel zur Therapiekostenerstattung für LGBT+ Personen in Deutschland",
 		"resources": {
 			"description": "Finden Sie Ressourcen und Informationen, die Ihnen helfen, das deutsche Gesundheitssystem zu navigieren, wie zum Beispiel unser Glossar, um Ihr Vertrauen bei schwierigen Begriffen zu stärken.",
 			"title": "Ressourcen"
@@ -48,7 +48,12 @@
 			"description": "Die Terminservicestelle (TSS) ist Teil des gesetzlichen Auftrags der Kassenärztlichen Vereinigungen. Sie unterstützt die gesetzlich versicherten Patient:innen bei der Vermittlung in die psychotherapeutische Versorgung (Psychotherapeutische Sprechstunde, Akutbehandlung und Probatorik). Die TSS ist teilweise extrem ausgelastet und es ist mit langen telefonischen Wartezeiten von bis zu 2h zu rechnen. Leider sprechen die Sachbearbeiter:innen der TSS auch zumeist nur deutsch, sodass englisch-sprachige Personen bestenfalls einen deutschsprechenden Freund:in um Mithilfe bitten, oder alternativ [diesen Link](Link zu unserem Guide) zur Hilfe nehmen.",
 			"title": "Terminservicestelle / TSS / 116117"
 		},
-		"title": "Glossar"
+		"item7": {
+			"description": "Die Terminservicestelle (TSS) ist Teil des gesetzlichen Auftrags der Kassenärztlichen Vereinigungen. Sie unterstützt die gesetzlich versicherten Patient:innen bei der Vermittlung in die psychotherapeutische Versorgung (Psychotherapeutische Sprechstunde, Akutbehandlung und Probatorik). Die TSS ist teilweise extrem ausgelastet und es ist mit langen telefonischen Wartezeiten von bis zu 2h zu rechnen. Leider sprechen die Sachbearbeiter:innen der TSS auch zumeist nur deutsch, sodass englisch-sprachige Personen bestenfalls einen deutschsprechenden Freund:in um Mithilfe bitten, oder alternativ [diesen Link](Link zu unserem Guide) zur Hilfe nehmen.",
+			"title": "Terminservicestelle / TSS / 116117"
+		},
+		"title": "Glossar",
+		"description": "Hier finden Sie Erklärungen zu wichtigen Begriffen, die Ihnen auf Ihrem Weg zur Therapie begegnen werden."
 	},
 	"metadata": {
 		"author": "von YellowBricks",
@@ -68,6 +73,7 @@
 		"menu": "Menü öffnen",
 		"notifications": "Benachrichtigungen",
 		"privacy": "Datenschutz",
+		"resources": "Ressourcen",
 		"start": "Jetzt starten!",
 		"survey": "Hilf uns! (Umfrage)",
 		"userMenu": {
@@ -78,9 +84,121 @@
 			"title": "Menü öffnen"
 		}
 	},
+	"pages": {
+		"resources": {
+			"content": "Mehr ressourcen, die Ihnen helfen, das deutsche Gesundheitssystem zu navigieren, wie zum Beispiel unser Glossar, um Ihr Vertrauen bei schwierigen Begriffen zu stärken.",
+			"title": "Ressourcen"
+		}
+	},
 	"process": {
 		"first-consultation": {
+			"checkbox-goal-1": "PTV11 - Bestätigung der Notwendigkeit (Indikation) einer Psychotherapie in einem Richtlinienverfahren",
+			"checkbox-goal-2": "Bestätigung, dass die Behandlung nicht in dieser Praxis stattfinden kann",
+			"description": "Seit der Einführung der neuen Psychotherapie-Richtlinie im Jahr 2017 müssen Sie eine sogenannte \"psychotherapeutische Sprechstunde\" oder \"Erstgespräch\" besuchen, eine Sitzung, die die Notwendigkeit (Indikation) einer Psychotherapie in einem Richtlinienverfahren bestätigt. Dieser Termin muss in einer Praxis stattfinden, die öffentlich versicherte Klienten aufnimmt.",
+			"goal-1-help": "sollte die Wörter \"zeitnah erforderlich\", \"Verhaltenstherapie\", \"Dringlichkeitscode\" enthalten",
+			"goal-2-help": "sollte die folgenden Wörter enthalten: \"Die Behandlung kann nicht in dieser Praxis stattfinden\"",
+			"goals": "Ziele",
+			"how": "Wie mache ich das?",
+			"how-summary": "Sie können einen Therapeuten für ein Erstgespräch auf folgende Weise finden:",
+			"how1": "Rufen Sie die <tel>116117</tel> (Terminservicestelle/<bold>TSS</bold>) an ODER",
+			"how2": "Besuchen Sie die <link>116117.de</link> Website ODER",
+			"how3": "Rufen Sie lokale Therapeuten an",
+			"time": "3 Wochen durchschnittliche Wartezeit",
+			"tips": "Tipps",
+			"tips-keywords": "Wichtige Schlüsselwörter, nach denen Sie suchen sollten: GKV-Praxis, Vertragspsychotherapeut:in",
+			"tips-keywords-help": "Wenn Sie nach einem Therapeuten suchen, der öffentliche Versicherungen akzeptiert, sollten Sie nach einer Praxis suchen, die eine GKV-Praxis ist und der Therapeut ein Vertragspsychotherapeut:in ist. Das bedeutet, dass der Therapeut einen Vertrag mit den öffentlichen Versicherungen hat und Sie als öffentlich versicherten Klienten behandeln kann.",
+			"tips-seats": "Auch wenn ein Therapeut keine Plätze frei hat, kann er die Notwendigkeit einer Psychotherapie bestätigen",
 			"title": "Erstgespräch"
+		},
+		"next": "Weiter",
+		"previous": "Zurück",
+		"step2": {
+			"checkbox-goal-1": "Nachweis von Absagen von 20 Therapeuten in Ihrem Absageprotokoll",
+			"description": "Kontaktieren Sie Psychotherapeuten mit Kassenzulassung. Da Sie nachweisen müssen, dass eine zeitnahe Behandlung bei Psychotherapeuten mit Kassenzulassung nicht möglich war, protokollieren Sie Ihre Anrufe.",
+			"goals": "Ziele",
+			"how": "Wie mache ich das?",
+			"how1": "Rufen Sie die Praxen an oder schreiben Sie E-Mails an 20 verschiedene Therapeuten mit Kassenzulassung",
+			"how2": "Protokollieren Sie Ihre Anrufe (Name, Datum, ggf. Uhrzeit und frühestmöglicher Behandlungstermin)",
+			"time": "2 Wochen durchschnittliche Wartezeit",
+			"tip1": "Sie können queere-freundliche Therapeuten unter <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> finden (stellen Sie sicher, dass Sie in der Suchmaske „Psychotherapie“ und Ihre Stadt auswählen)",
+			"tip2": "Wenn Sie zwei Wochen lang keine Antwort auf Ihre E-Mails erhalten oder der Anrufbeantworter Sie darüber informiert, dass keine Kapazitäten vorhanden sind, gilt dies ebenfalls als Nachweis.",
+			"tip3": "Sie können dieses Template verwenden, um Ihr Absageprotokoll zu erstellen.",
+			"tips": "Tipps",
+			"title": "Kontaktieren Sie Therapeuten mit Kassenzulassung"
+		},
+		"step3": {
+			"checkbox-goal-1": "Konsiliarbericht und Dringlichkeitsbescheinigung ausgefüllt haben.",
+			"description": "Vereinbaren Sie einen Termin mit Ihrem Hausarzt oder einem Psychiater und lassen Sie sich einen sogenannten \"dringenden medizinischen Bericht\" ausstellen.",
+			"goals": "Ziele",
+			"how": "Wie mache ich das?",
+			"how1": "Vereinbaren Sie einen Termin mit Ihrem Hausarzt oder Psychiater",
+			"how2": "Lassen Sie den Konsiliarbericht ausfüllen",
+			"how3": "Lassen Sie die Dringlichkeitsbescheinigung ausfüllen",
+			"time": "2 Wochen durchschnittliche Wartezeit",
+			"tip1": "Die meisten Ärzte verwenden ihre eigenen Vorlagen, aber Sie können auch diese Vorlagen verwenden.",
+			"tips": "Tipps",
+			"title": "Besuchen Sie Ihren Hausarzt oder Psychiater"
+		},
+		"step4": {
+			"checkbox-goal-1": "Mitteilung zur erfolglosen Terminvermittlung ausgefüllt und angekreuzt haben, dass die TSS keine probatorischen Sitzungen/Sprechstunde zeitnah vermitteln konnte.",
+			"description": "Einige Krankenkassen, wie TK und Mobil KK, bestehen jetzt darauf, dass Sie die Terminservicestelle (TSS) kontaktiert haben müssen, was theoretisch unnötig ist, da sie keine Termine vermitteln, aber Sie müssen dennoch nachweisen, dass Sie zumindest versucht haben, eine Vermittlung zu erhalten.",
+			"goals": "Ziele",
+			"how": "Wie mache ich das?",
+			"how1": "Rufen Sie die 116 117 mit dem Dringlichkeitscode an, den Sie vom Psychotherapeuten im Erstgespräch erhalten haben, oder suchen Sie online auf 116117.de nach einem Termin mit Ihrem Dringlichkeitscode",
+			"how2": "Füllen Sie die Mitteilung zur erfolglosen Terminvermittlung aus und kreuzen Sie an, dass die TSS keine probatorischen Sitzungen/Sprechstunde zeitnah vermitteln konnte.",
+			"time": "keine Wartezeit",
+			"tip1": "Stellen Sie sicher, dass das Datum des ersten Kontakts nach dem Datum liegt, an dem Sie den PTV11 und den Dringlichkeitscode erhalten haben.",
+			"tips": "Tipps",
+			"title": "Kontaktieren Sie die TSS"
+		},
+		"step5": {
+			"checkbox-goal-1": "Bestätigung von einem privaten Therapeuten haben, dass Sie mit ihnen eine Therapie beginnen können und dass sie bereit sind, am Erstattungsverfahren teilzunehmen.",
+			"description": "Finden Sie einen Therapeuten mit einer Privatpraxis, der bereit ist, am Erstattungsverfahren teilzunehmen, und erhalten Sie die Bestätigung, dass er Sie aufnehmen würde.",
+			"goals": "Ziele",
+			"how": "Wie mache ich das?",
+			"how1": "Suchen Sie nach Therapeuten mit einer Privatpraxis, die bereit sind, am Erstattungsverfahren teilzunehmen.",
+			"how2": "Kontaktieren Sie sie, um herauszufinden, ob sie Platz für Sie haben.",
+			"time": "2 Wochen durchschnittliche Wartezeit",
+			"tip1": "Sie können queere-freundliche Therapeuten unter <link>https://queermed-deutschland.de/en/look-for-recommendations/</link> finden (stellen Sie sicher, dass Sie in der Suchmaske „Psychotherapie“ und Ihre Stadt auswählen)",
+			"tips": "Tipps",
+			"title": "Kontaktieren Sie private Therapeuten"
+		},
+		"step6": {
+			"checkbox-goal-1": "Formular ausgefüllt und unterschrieben haben.",
+			"description": "Dieser Schritt ist relativ einfach. Füllen Sie die bereitgestellte Vorlage für den Antrag auf Probatorik aus und vergewissern Sie sich, dass Sie sie unterschreiben.",
+			"goals": "Ziele",
+			"how": "Wie mache ich das?",
+			"how1": "Füllen Sie den Antrag auf Probatorik aus und unterschreiben Sie ihn.",
+			"time": "keine Wartezeit",
+			"title": "Füllen Sie das Formular aus"
+		},
+		"step7": {
+			"checkbox-goal-1": "Alle oben aufgeführten Dokumente bereit haben, um sie an Ihren neuen Therapeuten zu senden.",
+			"checklist": "Checkliste",
+			"checklist1": "PTV11 mit den Worten „zeitnah erforderlich“, „Verhaltenstherapie“, „Dringlichkeitscode“ (vom Therapeuten in Ihrem Erstgespräch ausgefüllt)",
+			"checklist2": "Absageprotokoll (von Ihnen ausgefüllt)",
+			"checklist3": "Konsiliarbericht (von Ihrem Hausarzt/Psychiater ausgefüllt)",
+			"checklist4": "Dringlichkeitsbescheinigung (von Ihrem Hausarzt/Psychiater ausgefüllt)",
+			"checklist5": "Mitteilung zur erfolglosen Terminvermittlung (von Ihnen ausgefüllt)",
+			"checklist6": "Antrag auf Probatorik (von Ihnen ausgefüllt)",
+			"description": "Senden Sie alle Dokumente, die Sie im vorherigen Schritt gesammelt haben, an Ihren neuen Therapeuten. Dieser wird Ihnen mitgeteilt haben, ob er die Dokumente lieber per E-Mail oder per Post erhalten möchte. Ihr Therapeut wird von dort aus weitermachen, weitere notwendige Dokumente hinzufügen und alles an Ihre Krankenkasse senden.",
+			"goals": "Ziele",
+			"time": "keine Wartezeit",
+			"title": "Sammeln Sie alle Ihre Dokumente"
+		},
+		"step8": {
+			"checkbox-goal-1": "Bestätigung von Ihrem Therapeuten erhalten haben, dass er Ihre Dokumente erhalten hat.",
+			"description": "Senden Sie alle Dokumente, die Sie im vorherigen Schritt gesammelt haben, an Ihren neuen Therapeuten. Dieser wird Ihnen mitgeteilt haben, ob er die Dokumente lieber per E-Mail oder per Post erhalten möchte. Ihr Therapeut wird von dort aus weitermachen, weitere notwendige Dokumente hinzufügen und alles an Ihre Krankenkasse senden.",
+			"goals": "Ziele",
+			"how": "Wie mache ich das?",
+			"how1": "Senden Sie Ihrem neuen Therapeuten die Dokumente, damit er das Erstattungsverfahren mit Ihrer Krankenkasse beginnen kann.",
+			"time": "ca. 20 Minuten",
+			"title": "Dokumente senden"
+		},
+		"step9": {
+			"description": "Geschafft! Jetzt müssen Sie auf die Genehmigung Ihrer Krankenkasse warten. Dies kann einige Wochen dauern. Aber keine Sorge, sie sind gesetzlich verpflichtet, Ihnen diese Erstattung zu gewähren.",
+			"time": "4 Wochen durchschnittliche Wartezeit",
+			"title": "Du hast es geschafft 🥳"
 		}
 	}
 }
