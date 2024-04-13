@@ -33,7 +33,7 @@ export default function Feature() {
 					<p className="mt-2 text-3xl font-bold tracking-tight text-accent-600 dark:text-accent-400 sm:text-4xl">
 						{t("subtitle")}
 					</p>
-					<p className="mt-6 text-lg leading-8 text-neutral-200">{t("description")}</p>
+					<p className="mt-6 text-lg leading-8 text-neutral-600 dark:text-neutral-200">{t("description")}</p>
 				</div>
 				<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
 					<dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">

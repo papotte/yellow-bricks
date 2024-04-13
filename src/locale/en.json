@@ -2,6 +2,9 @@
 	"error": {
 		"loading": "Failed to load"
 	},
+	"feature": {
+		"title": "Feature"
+	},
 	"metadata": {
 		"author": "By YellowBricks",
 		"subtitle": "By YellowBricks",
@@ -19,6 +22,7 @@
 		"menu": "Open main menu",
 		"notifications": "View notifications",
 		"privacy": "Privacy",
+		"resources": "Resources",
 		"start": "Get started",
 		"survey": "Help us with your input!",
 		"userMenu": {
@@ -29,7 +33,44 @@
 			"title": "Open user menu"
 		}
 	},
-	"feature": {
-		"title": "Feature"
+	"pages": {
+		"about": {
+			"content": "This is the about page."
+		},
+		"home": {
+			"content": "This is the home page."
+		},
+		"imprint": {
+			"content": "This is the imprint page."
+		},
+		"privacy": {
+			"content": "This is the privacy page."
+		},
+		"resources": {
+			"content": "This is the resources page.",
+			"title": "Resources"
+		}
+	},
+	"process": {
+		"first-consultation": {
+			"title": "First Consultation",
+			"description": "Since the introduction of the new psychotherapy guideline in 2017, you must visit a so-called \"psychotherapeutische Sprechstunde\" or ”Erstgespräch”, a session that confirms the necessity (indication) of psychotherapy in a guideline procedure. This appointment has to happen in a practice that takes publicly insured clients.",
+			"how": "How to do this?",
+			"how-summary": "You can find a therapist for an initial consultation in one of the following ways:",
+			"how1": "Call 116117 (Terminservicestelle/<bold>TSS</bold>) OR",
+			"how2": "Visit <link>116117.de</link> website OR",
+			"how3": "Call local therapists",
+			"tips": "Tips",
+			"tips-keywords": "Important keywords to look for: GKV-Praxis, Vertragspsychotherapeut:in",
+			"tips-keywords-help": "If you are looking for a therapist who takes public insurance, you should look for a practice that is a GKV-Praxis and the therapist is a Vertragspsychotherapeut:in. This means that the therapist has a contract with the public insurance companies and can treat you as a public insurance client.",
+			"tips-seats": "Even if a therapist doesn't have seats available, they can confirm the necessity of psychotherapy",
+			"goals": "Goals"
+		},
+		"email": {
+			"title": "Email"
+		},
+		"overview": {
+			"title": "Overview"
+		}
 	}
 }

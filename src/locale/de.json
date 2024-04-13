@@ -28,5 +28,10 @@
 			"settings": "Einstellungen",
 			"title": "Menü öffnen"
 		}
+	},
+	"process": {
+		"first-consultation": {
+			"title": "Erstgespräch"
+		}
 	}
 }
