@@ -44,6 +44,14 @@ body {
 	h6 {
 		@apply text-lg font-bold;
 	}
+
+	a {
+		@apply font-medium text-accent-600 dark:text-accent-500 hover:underline;
+	}
+
+	svg {
+		@apply inline mx-1;
+	}
 }
 
 .btn {

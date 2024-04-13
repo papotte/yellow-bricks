@@ -39,11 +39,9 @@ export default function Consultation() {
 			<h5>{t("tips")}</h5>
 			<ul className="list-disc list-inside">
 				<li>
-					<span className={"inline-flex"}>
-						{t("tips-keywords")}
-						<span data-tooltip-target="tooltip-keywords">
-							<QuestionMarkCircleIcon width={12} height={12} />
-						</span>
+					{t("tips-keywords")}
+					<span data-tooltip-target="tooltip-keywords">
+						<QuestionMarkCircleIcon width={12} height={12} />
 					</span>
 				</li>
 
@@ -69,7 +67,7 @@ export default function Consultation() {
 						/>
 						<label
 							htmlFor={checkbox.id}
-							className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 inline-flex"
+							className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
 						>
 							{t(`checkbox-${checkbox.id}`)}
 							<span data-tooltip-target={"tooltip-" + checkbox.id}>
