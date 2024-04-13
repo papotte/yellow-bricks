@@ -11,6 +11,7 @@ const navigation = [
 	{ name: "start", href: "/start", current: false },
 	{ name: "about", href: "/about", current: false },
 	{ name: "resources", href: "/resources", current: false },
+	{ name: "glossary", href: "/glossary", current: false },
 ];
 
 const languages = [
