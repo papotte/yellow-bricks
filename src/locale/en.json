@@ -186,13 +186,6 @@
 		},
 		"step7": {
 			"checkbox-goal-1": "All documents listed above ready for sending to your new therapist. ",
-			"checklist": "Checklist",
-			"checklist1": "PTV11 with the words “zeitnah erforderlich”, “Verhaltenstherapie”, “Dringlichkeitscode” (filled in by the therapist in your Erstgespräch)",
-			"checklist2": "Absageprotokoll (filled in by yourself)",
-			"checklist3": "Konsiliarbericht (filled in by your GP/psychiatrist)",
-			"checklist4": "Dringlichkeitsbescheinigung (filled in by your GP/psychiatrist)",
-			"checklist5": "Mitteilung zur erfolglosen Terminvermittlung (filled in by yourself)",
-			"checklist6": "Antrag auf Probatorik (filled in by yourself)",
 			"description": "Send all the documents you’ve gathered in the previous step to your new therapist. They will have let you know if they prefer to receive the documents via email or via post. Your therapist will take it from there, adding any other necessary documents and sending everything to your health insurance provider. ",
 			"goals": "Goals",
 			"time": "no waiting time",

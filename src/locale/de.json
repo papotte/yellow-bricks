@@ -174,17 +174,19 @@
 		},
 		"step7": {
 			"checkbox-goal-1": "Alle oben aufgeführten Dokumente bereit haben, um sie an Ihren neuen Therapeuten zu senden.",
-			"checklist": "Checkliste",
-			"checklist1": "PTV11 mit den Worten „zeitnah erforderlich“, „Verhaltenstherapie“, „Dringlichkeitscode“ (vom Therapeuten in Ihrem Erstgespräch ausgefüllt)",
-			"checklist2": "Absageprotokoll (von Ihnen ausgefüllt)",
-			"checklist3": "Konsiliarbericht (von Ihrem Hausarzt/Psychiater ausgefüllt)",
-			"checklist4": "Dringlichkeitsbescheinigung (von Ihrem Hausarzt/Psychiater ausgefüllt)",
-			"checklist5": "Mitteilung zur erfolglosen Terminvermittlung (von Ihnen ausgefüllt)",
-			"checklist6": "Antrag auf Probatorik (von Ihnen ausgefüllt)",
 			"description": "Senden Sie alle Dokumente, die Sie im vorherigen Schritt gesammelt haben, an Ihren neuen Therapeuten. Dieser wird Ihnen mitgeteilt haben, ob er die Dokumente lieber per E-Mail oder per Post erhalten möchte. Ihr Therapeut wird von dort aus weitermachen, weitere notwendige Dokumente hinzufügen und alles an Ihre Krankenkasse senden.",
 			"goals": "Ziele",
 			"time": "keine Wartezeit",
 			"title": "Sammeln Sie alle Ihre Dokumente"
+		},
+		"step7-docs": {
+			"goals": "Checklist",
+			"checkbox-doc-1": "PTV11 mit den Formulierungen “zeitnah erforderlich”, “Verhaltenstherapie”, “Dringlichkeitscode” (ausgefüllt vom Therapeuten aus dem Erstgespräch)",
+			"checkbox-doc-2": "Absageprotokoll (selbst ausgefüllt)",
+			"checkbox-doc-3": "Konsiliarbericht (ausgefüllt vom Hausarzt/Therapeuten)",
+			"checkbox-doc-4": "Dringlichkeitsbescheinigung (ausgefüllt vom Hausarzt/Therapeuten)",
+			"checkbox-doc-5": "Mitteilung zur erfolglosen Terminvermittlung (selbst ausgefüllt)",
+			"checkbox-doc-6": "Antrag auf Probatorik (selbst ausgefüllt)"
 		},
 		"step8": {
 			"checkbox-goal-1": "Senden Sie die Dokumente mit Einschreiben.",
