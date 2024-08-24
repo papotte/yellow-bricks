@@ -6,15 +6,19 @@ This project was born at the [Unicorns in Tech Hackathon 2024](https://www.unico
 
 # Development
 
+## Pre-requisites
+
+-   Node.js
+-   Bun CLI -> `npm install -g bun`
+
 ## Getting Started
 
-First, run the development server:
+To get started, clone the repository and install the dependencies:
 
-```bash
-bun dev
-# or
-bun run dev
-```
+1. Clone the repository: `gh repo clone papotte/yellow-bricks`
+2. Install the dependencies: `bun install`
+3. Create a `.env` file in the root of the project, `cp .env.example .env` and fill in the necessary environment variables.
+4. Run the development server: `bun dev`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -39,25 +43,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-### Diginext
-
-```bash
-dx up
-```
-
-Learn more:
-
--   Website: https://diginext.site
--   Github: https://github.com/digitopvn/diginext
--   NPM: https://www.npmjs.com/package/@topgroup/diginext
-
-### Integrated tools
+## Integrated tools
 
 -   ✅ ESLint + Prettier
 -   ✅ Tailwind CSS
--   ✅ Next Auth
--   ✅ Next SEO + Sitemap
--   ✅ tRPC
 -   ✅ Prisma
 -   ✅ Zod
 -   ✅ Husky hooks
