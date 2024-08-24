@@ -1,8 +1,9 @@
-import Stepper from "@/components/process/stepper";
 import Feature from "@/components/ui/feature";
 import { useTranslations } from "next-intl";
-import React from "react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import { useSessionStorage } from "usehooks-ts";
 
 export async function getStaticProps(context: any) {
 	return {
@@ -15,8 +16,20 @@ export async function getStaticProps(context: any) {
 	};
 }
 
+const DynamicStepper = dynamic(() => import("@/components/process/stepper"), { ssr: false });
 export default function Home() {
 	const t = useTranslations();
+
+	const [isFirstVisit, setFirstVisit] = useState<boolean>(true);
+
+	const [currentStepIndex] = useSessionStorage<number>("currentStepIndex", 0);
+
+	useEffect(() => {
+		if (currentStepIndex > 0) {
+			setFirstVisit(false);
+		}
+	}, [currentStepIndex, setFirstVisit]);
+
 	return (
 		<>
 			<div
@@ -26,6 +39,13 @@ export default function Home() {
 						"linear-gradient(135deg, rgba(250,229,80,1) 20%, rgba(139,183,232,1) 60%, rgba(244,183,166,1) 80%)",
 				}}
 			></div>
+			{!isFirstVisit && (
+				<div className={`text-accent-500 dark:text-accent-300`}>
+					<h2 className="text-base font-semibold leading-7 text-accent-700 dark:text-accent-300">
+						{t("welcome-back")}
+					</h2>
+				</div>
+			)}
 			<section className={`container flex flex-col mx-auto items-center justify-between font-lexend`}>
 				<div className="relative flex flex-col items-center gap-4 place-items-baseline before:absolute">
 					<Image
@@ -51,7 +71,7 @@ export default function Home() {
 					</a>
 				</div>
 				<Feature />
-				<Stepper />
+				<DynamicStepper />
 			</section>
 		</>
 	);

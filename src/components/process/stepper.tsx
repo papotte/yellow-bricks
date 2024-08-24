@@ -1,9 +1,9 @@
 import Consultation from "@/components/process/consultation";
-import Overview from "@/components/process/overview";
 import Step2 from "@/components/process/Step2";
 import { ClockIcon } from "@heroicons/react/24/outline";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import { useSessionStorage } from "usehooks-ts";
 import Step3 from "./Step3";
 import Step4 from "./Step4";
 import Step5 from "./Step5";
@@ -58,11 +58,13 @@ const steps: Step[] = [
 
 export default function Stepper() {
 	const t = useTranslations("process");
-	const [currentStepIndex, setCurrentStepIndex] = useState(0);
+	const [currentStepIndex, setCurrentStepIndex] = useSessionStorage<number>("currentStepIndex", 0);
 	const [selectedStep, setSelectedStep] = useState<Step | null>(null);
 
 	useEffect(() => {
 		setSelectedStep(null);
+		if (currentStepIndex === undefined) return;
+
 		const selectedStep = steps[currentStepIndex];
 
 		if (selectedStep) {
