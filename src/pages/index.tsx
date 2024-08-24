@@ -40,10 +40,20 @@ export default function Home() {
 				}}
 			></div>
 			{!isFirstVisit && (
-				<div className={`text-accent-500 dark:text-accent-300`}>
-					<h2 className="text-base font-semibold leading-7 text-accent-700 dark:text-accent-300">
-						{t("welcome-back")}
-					</h2>
+				<div
+					className="p-2 mb-4 bg-accent-800 items-center text-accent-100 leading-none lg:rounded-full flex lg:inline-flex"
+					role="alert"
+				>
+					<span className="font-semibold mr-2 text-left flex-auto">{t("welcome-back")}</span>
+					<a href="#process" className="cursor-pointer">
+						<svg
+							className="fill-current opacity-75 h-4 w-4"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+						>
+							<path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />
+						</svg>
+					</a>
 				</div>
 			)}
 			<section className={`container flex flex-col mx-auto items-center justify-between font-lexend`}>
@@ -71,7 +81,9 @@ export default function Home() {
 					</a>
 				</div>
 				<Feature />
-				<DynamicStepper />
+				<div id="process">
+					<DynamicStepper />
+				</div>
 			</section>
 		</>
 	);
