@@ -1,6 +1,5 @@
 import Layout from "@/components/ui/layout";
 
-import { api } from "@/plugins/trpc/api";
 import "@/styles/globals.scss";
 
 import { ConfigProvider, theme } from "antd";
@@ -42,4 +41,4 @@ const MyApp: AppType<AppProps> = ({ Component, pageProps: { session, messages, .
 	);
 };
 
-export default api.withTRPC(MyApp);
+export default MyApp;
