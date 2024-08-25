@@ -1,7 +1,4 @@
 import Stepper from "@/components/process/stepper";
-import Feature from "@/components/ui/feature";
-import { useTranslations } from "next-intl";
-import { Inter } from "next/font/google";
 import React from "react";
 
 export async function getStaticProps(context: any) {

@@ -5,6 +5,7 @@ const nextConfig = {
 		locales: ["en", "de"],
 		defaultLocale: "en",
 	},
+	optimizeFonts: true,
 	trailingSlash: true,
 	images: {
 		dangerouslyAllowSVG: true,

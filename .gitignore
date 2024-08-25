@@ -55,7 +55,6 @@ yarn.lock
 package-lock.json
 pnpm-lock.yaml
 
-
 # dotenv local files
 .env
 .env*.local
@@ -66,7 +65,6 @@ local
 # vercel
 .vercel
 
-
 # Storage
 storage
 public/uploads
@@ -75,6 +73,7 @@ public/uploads
 /log
 .temp
 .temp*
+*.tsbuildinfo
 
 # Deployment
 deployment/deployment_dev1.yml

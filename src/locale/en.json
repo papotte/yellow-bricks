@@ -2,7 +2,9 @@
 	"error": {
 		"loading": "Failed to load"
 	},
+	"welcome-back": "Welcome back! It seems like you've been here before. Would you like to continue where you left off?",
 	"feature": {
+		"title": "Features",
 		"connect": {
 			"description": "Queer individuals in Germany are 2.6 times more likely to have mental health challenges. We want to help connect you with LGBTQIA+ experienced therapists.",
 			"title": "LGBTQIA+ First!"
@@ -136,7 +138,8 @@
 			"tip2": "Not receiving a response to your emails for two weeks or the answering machine informing you that there are no capacities also counts as proof.",
 			"tip3": "You can use <link>this template</link> to create your protocol of rejections (”Absageprotokoll”).",
 			"tips": "Tips",
-			"title": "Contact public therapists"
+			"title": "Contact public therapists",
+			"tips-keywords-help": "If you are looking for a therapist who takes public insurance, you should look for a practice that is a GKV-Praxis and the therapist is a Vertragspsychotherapeut:in. This means that the therapist has a contract with the public insurance companies and can treat you as a public insurance client."
 		},
 		"step3": {
 			"checkbox-goal-1": "Have filled out Konsiliarbericht and Dringlichkeitsbescheinigung.",
